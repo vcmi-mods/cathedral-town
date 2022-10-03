@@ -1,0 +1,53 @@
+{
+	"helena" :
+	{
+		"class" : "redtemplar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/helena/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/helena/spec-large.bmp",
+			"large" : "cathedral/heroes/helena/portrait-large.bmp",
+			"small" : "cathedral/heroes/helena/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Alexia",
+			"biography" : "Serving as a noble girl, Alexia never mentions about her family and old story. She is only known as a fighter. When other noble girls are learning etiquettes at home, she has already standed on the battlefield with armor. Maybe she pursues a better life, with battle and adventure.",
+			"specialty" :
+			{
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"tooltip" : "Increases kingdom's income by 350 gold per day",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}		
+	}
+}

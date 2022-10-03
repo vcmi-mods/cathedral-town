@@ -1,0 +1,57 @@
+{
+	"vseglas" :
+	{
+		"class" : "cthbishop",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/vseglas/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/vseglas/spec-large.bmp",
+			"large" : "cathedral/heroes/vseglas/portrait-large.bmp",
+			"small" : "cathedral/heroes/vseglas/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Riera the Baroness",
+			"biography" : "Someone said Riera looks like the Countess in tale, but she is really a kind woman and often helps the poverty. Maybe such view only because her husband Baron Von Schiffer was dead in the disaster and became a vampire by necromancers. ",
+			"specialty" :
+			{
+				"description" : "{Weakness}\r\n\r\nCasts Weakness spell with increased effect, based on the level of the target.",
+				"tooltip" : "Secondary Skill Bonus",
+				"name" : "Weakness"
+			}
+		},
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

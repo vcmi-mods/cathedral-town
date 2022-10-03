@@ -1,0 +1,55 @@
+{
+	"noli" :
+	{
+		"class" : "redtemplar",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/noli/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/noli/spec-large.bmp",
+			"large" : "cathedral/heroes/noli/portrait-large.bmp",
+			"small" : "cathedral/heroes/noli/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Nathaniel",
+			"biography" : "Nathaniel is well-known from his arrogance. He joint the church while he was defeated by necromancers in defending the board of Erathia. Now it is the time for revenge!",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Armorer Bonus(useless)",
+				"name" : "Armorer"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

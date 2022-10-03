@@ -1,0 +1,146 @@
+{
+	"redeem":
+	{
+		"type": "ability", 
+		"name": "Redeem",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+ 
+		//forgetfulness animation
+		"animation":{
+			"affect":[{"defName":"catheSpells/redeem.def", "verticalPosition":"bottom"}]
+		},
+ 
+		"flags" : {"positive": true},
+ 
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.REBIRTH" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "catheSpells/Scratch0.bmp",
+			"iconScroll": "catheSpells/Scratch1.bmp",
+			"iconScenarioBonus": "catheSpells/Scratch2.bmp",
+			"iconEffect": "catheSpells/redeem.bmp"
+		},
+
+		"sounds":
+		{
+			"cast": "PRAYER"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"aiValue": 12,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"redeem" : {
+						"type" : "STACK_HEALTH",
+						"val" : 25,
+						"valueType" : "PERCENT_TO_BASE",
+						},
+					"redeem2" :{
+						"type" : "HP_REGENERATION",
+						"val" : 100,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"redeem" : {
+						"type" : "STACK_HEALTH",
+						"val" : 25,
+						"valueType" : "PERCENT_TO_BASE",
+						},
+					"redeem2" :{
+						"type" : "HP_REGENERATION",
+						"val" : 100,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"redeem" : {
+						"type" : "STACK_HEALTH",
+						"val" : 25,
+						"valueType" : "PERCENT_TO_BASE",
+						},
+					"redeem2" :{
+						"type" : "HP_REGENERATION",
+						"val" : 100,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"redeem" : {
+						"type" : "STACK_HEALTH",
+						"val" : 25,
+						"valueType" : "PERCENT_TO_BASE",
+						},
+					"redeem2" :{
+						"type" : "HP_REGENERATION",
+						"val" : 100,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			}
+		}
+		}
+	}

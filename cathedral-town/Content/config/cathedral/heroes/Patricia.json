@@ -1,0 +1,48 @@
+{
+	"patricia" :
+	{
+		"class" : "redtemplar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/patricia/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/patricia/spec-large.bmp",
+			"large" : "cathedral/heroes/patricia/portrait-large.bmp",
+			"small" : "cathedral/heroes/patricia/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthWitchHunter", "min" :  4, "max" :  7 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Lucero",
+			"biography" : "Lucero is crazy about hunting harpies and medusas. She likes collecting their bones, skulls or some other 'souvenirs' from the bodies. Hunting is her hobby, even if no one will recruit her to do this.",
+			"specialty" :
+			{
+				"description" : "{Witch Hunters}\r\n\r\nIncreases Speed of any Witch Hunters and Evil Hunters by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up).",
+				"tooltip" : "Bonus: WitchHunter",
+				"name" : "Witch Hunters"
+			}
+		},
+		"specialty" : {
+			"creature" : "cthWitchHunter"
+		}		
+	}
+}

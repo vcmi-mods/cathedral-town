@@ -1,0 +1,75 @@
+{
+	"cthAttackDog":
+	{
+		"name" :
+		{
+			"plural" : "Sleuthhounds",
+			"singular" : "Sleuthhound"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "cathedral",
+		"upgrades":
+		[
+			"cthHound"
+		],
+		"level" : 1,
+		"attack" : 3,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 16,
+		"hitPoints" : 8,
+		"speed" : 5,
+		"doubleWide" : true,
+		"fightValue" : 108,
+		"aiValue" : 106,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL1L.def",
+			"map" : "cathedral/creatures/map/AVWCATH01.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT001S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT001.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "cathedral/CCT1ATTK.wav",
+			"defend": "cathedral/CCT1DFND.wav",
+			"killed": "cathedral/CCT1KILL.wav",
+			"move": "cathedral/CCT1MOVE.wav",
+			"wince": "cathedral/CCT1WNCE.wav"
+               },
+		"abilities":
+		{
+	
+		      "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		}
+	}
+}
+
+
+
+
+
+

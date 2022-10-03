@@ -1,0 +1,65 @@
+{
+	"svetlana" :
+	{
+		"class" : "cthbishop",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/svetlana/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/svetlana/spec-large.bmp",
+			"large" : "cathedral/heroes/svetlana/portrait-large.bmp",
+			"small" : "cathedral/heroes/svetlana/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Amanda",
+			"biography" : "Similar as Gabrielle, Amanda had seen her parents and sisters' death in the disater at a very young age. She was rescued by priests from the church, now she also became a revenger for necromancers.",
+			"specialty" :
+			{
+				"description" : "{-1 Morale}\r\n\r\nAll enemies -1 morale during battle.",
+				"tooltip" : "Bonus: -1 Morale",
+				"name" : "-1 Morale"
+			}
+		},
+		"spellbook" :
+		[
+		       "curse"
+		],
+		"specialty": 
+		[
+			{
+				"bonuses":
+				[
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"valueType" : "BASE_NUMBER"
+			}
+				]
+			}
+		]		
+	}
+}
+
+
+
+

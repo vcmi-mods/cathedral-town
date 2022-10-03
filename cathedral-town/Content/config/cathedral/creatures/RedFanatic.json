@@ -1,0 +1,104 @@
+{
+	"saRedFanatic":
+	{
+		"name" :
+		{
+			"plural" : "Red Fanatics",
+			"singular" : "Red Fanatic"
+		},
+		"faction" : "cathedral",
+                "doubleWide" : false,
+		"level" : 0,
+		"special": true,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 14,
+			 "max" : 17
+		},
+		"growth" : 1,
+		"hitPoints" : 50,
+		"speed" : 6,
+		"shots" : 24,
+		"aiValue" : 5931,
+		"fightValue" : 5272,
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/zealot.def",
+			"map" : "cathedral/creatures/map/zealot.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/zealot.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/zealot.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+               },
+		"abilities" :
+		{
+        		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.prayer",
+				"val" : 3
+                        },
+                      "noMind":
+                        {
+                               "type": "MIND_IMMUNITY"
+			}
+		}
+	}
+}

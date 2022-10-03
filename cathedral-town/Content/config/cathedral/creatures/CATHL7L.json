@@ -1,0 +1,89 @@
+{
+	"cthPunisher":
+	{
+		"name" :
+		{
+			"plural" : "Punishers",
+			"singular" : "Punisher"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "cathedral",
+		"upgrades": ["cthChasteners"],
+		"level" : 7,
+		"attack" : 20,
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 55
+		},
+		"growth" : 1,
+		"hitPoints" : 150,
+		"speed" : 14,
+		"fightValue" : 4133,
+		"aiValue" : 5260,
+		"cost" :
+		{
+			"gold" : 2800,
+			"sulfur" : 1
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL7L.def",
+			"map" : "cathedral/creatures/map/AVWCATH13.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT013S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT013.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1.8
+			}
+		},
+		"abilities" :
+		{
+
+		   "FLYING_ARMY": {
+			"type": "FLYING",
+			// type loaded from crtraits
+			"subtype": 1 // teleports
+			},
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archangel",
+				"val" : 50
+			},
+			"KING2":
+			{
+				"type" : "KING2",
+				
+			}
+		},
+		"sound" :
+		{
+			"attack": "PLIZATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "NOSFEXT1.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "NOSFEXT2.wav",
+			"startMoving": "cathedral/CCT7EXT1.wav",
+			"endMoving": "cathedral/CCT7EXT2.wav"
+		}
+	}
+}
+
+
+

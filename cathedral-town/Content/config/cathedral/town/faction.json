@@ -1,0 +1,189 @@
+{
+	"cathedral" :
+	{
+		"name" : "Cathedral",
+		"nativeTerrain" : "dirt",
+		"alignment" : "evil",
+		"creatureBackground" :
+		{
+			"120px" : "cathedral/TPCASCTH.bmp",
+			"130px" : "cathedral/CRBKGCTH.bmp"
+		},
+		"town" :
+		{
+			"mapObject" :
+			{
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"castle" :  { "animation" : "cathedral/adventure-map/town/town-castle.def" },
+					"citadel" : { "animation" : "cathedral/adventure-map/town/town-citadel.def" },
+					"fort"    : { "animation" : "cathedral/adventure-map/town/town-fort.def" },
+					"village" : { "animation" : "cathedral/adventure-map/town/town-village.def" },
+					"capitol" : { "animation" : "cathedral/adventure-map/town/town-capitol.def" }
+				}
+			},
+
+			"musicTheme" : "music/factions/CathedralTown",
+			"defaultTavern" : 5,
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 2,
+				"druid"        : 2,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5,
+                "cthbishop"    : 5,
+                "redtemplar"    : 5
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "cathedral/town-screen/TPMAGECTH.bmp",
+			"guildSpells" : {
+				"airShield" : 2,
+				"antiMagic" : 10,
+				"berserk" : 5,
+				"bless" : 10,
+				"bloodlust" : 5,
+				"chainLightning" : 10,
+				"clone" : 10,
+				"counterstrike" : 5,
+				"cure" : 5,
+				"disguise" : 2,
+				"dispel" : 10,
+				"disruptingRay" : 6,
+				"earthquake" : 8,
+				"fireShield" : 5,
+				"fireWall" : 4,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"fortune" : 4,
+				"frenzy" : 5,
+				"frostRing" : 30,
+				"haste" : 10,
+				"hypnotize" : 4,
+				"iceBolt" : 50,
+				"inferno" : 5,
+				"landMine" : 4,
+				"lightningBolt" : 4,
+				"magicArrow" : 30,
+				"meteorShower" : 10,
+				"mirth" : 8,
+				"misfortune" : 4,
+				"prayer" : 10,
+				"precision" : 4,
+				"protectAir" : 2,
+				"protectEarth" : 4,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"resurrection" : 5,
+				"scuttleBoat" : 8,
+				"shield" : 3,
+				"slayer" : 5,
+				"slow" : 5,
+				"sorrow" : 5,
+				"stoneSkin" : 5,
+				"summonBoat" : 5,
+				"teleport" : 10,
+				"townPortal" : 10,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+				"visions" : 2,
+				"waterWalk" : 10,
+				"weakness" : 8,
+				"airElemental"   : 4,
+				"dimensionDoor"  : 15,
+				"earthElemental" : 10,
+				"fireElemental"  : 10,
+				"fly"            : 15,
+				"implosion"      : 15,
+				"magicMirror"    : 15,
+				"sacrifice"      : 11,
+				"waterElemental" : 5
+			},
+			"townBackground": "cathedral/town-screen/TBCTBACK.bmp",
+			"guildWindow": "cathedral/town-screen/TPMAGECT.bmp",
+			"buildingsIcons": "cathedral/town-hall.def",
+			"hallBackground": "TPTHBKRM",
+            "primaryResource" : "sulfur",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special3" ] ],
+				[ [ "special1", "special2" ], [ "horde2", "horde2Upgr" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["cthAttackDog", "cthHound"],
+				["cthSlayer", "cthExecutioner"],
+				["cthWitchHunter", "cthEvilHunter"],
+				["cthCouatl", "cthBloodyCouatl"],
+				["cthSexton", "cthCantor"],
+				["cthTemplar", "cthPaladin"],
+				["cthPunisher", "cthChasteners" ]
+			],
+			"horde" : [ 1, 4 ],
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "cathedral/icons/fort-builded-big.bmp",
+						"small" : "cathedral/icons/fort-builded-small.bmp"
+					},
+					"normal" : { 
+						"large" : "cathedral/icons/fort-big.bmp", 
+						"small" : "cathedral/icons/fort-small.bmp" 
+						}
+				},
+				"village" : {
+					"built" : {
+						"large" : "cathedral/icons/hall-builded-big.bmp",
+						"small" : "cathedral/icons/hall-builded-small.bmp"
+					},
+					"normal" : { "large" : "cathedral/icons/hall-big.bmp", "small" : "cathedral/icons/hall-small.bmp" }
+				}
+                        },
+			"mageGuild" : 5,
+			"warMachine" : "firstAidTent",
+			"moatDamage" : 90,
+			"moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+			"names" : [
+				"Jevonchurch", //in Russian: Джевонс Церковь; in Chinese: 圣佑镇
+				"Townsville",	// in Russian: Таунсвилл; in Chinese: 汤斯维尔
+				"Maureen",		// in Russian：Морин；in Chinese: 莫林
+				"Tastarra",		// in Russian：Плохая клавиша; in Chinese: 塔斯特拉； original words in Romanian：Tasta ra, which means 'Plague Key'
+				"Armistice",	// in Russian: Перемирие; in Chinese: 止战之城
+				"Grannyville",	// in Russian：бабулявилл; in Chinese: 格拉尼维尔
+				"North Shire",	// in Russian: Северная графство； in Chinese: 北地镇
+				"St.Hobert",	// in Russian: Сент-Хоберт； in Chinese: 赫伯特
+				"Ashcroft",		// in Russian：Эшкрофт； in Chinese: 艾什克洛特 I used to live in a street whose name is Ashcroft, when I was an international student in Australia				
+				"Goulburn",		// in Russian: Гоулберн；in Chinese：古尔本 Goulburn is a place in Australia (near Canberra) where I used to live for three months.
+				"Griffith",		// in Russian: Гриффит； in Chinese：格里菲斯
+				"Chapeltown",	// in Russian: Чэпелтаун；in Chinese：查贝敦
+				"Lost Temple",	// in Russian: Потерял Темпль；in Chinese：神殿城
+				"Sunset Trails",	// in Russian: Закат Трассы；in Chinese：落日城
+				"Yara Hills"		// in Russian: Яра Холмы；in Chinese：雅拉山
+			]
+		}
+	}
+}
+

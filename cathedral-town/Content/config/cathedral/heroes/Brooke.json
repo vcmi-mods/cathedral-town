@@ -1,0 +1,61 @@
+{
+	"brooke" :
+	{
+		"class" : "redtemplar",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/brooke/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/brooke/spec-large.bmp",
+			"large" : "cathedral/heroes/brooke/portrait-large.bmp",
+			"small" : "cathedral/heroes/brooke/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Andreas",
+			"biography" : "Andreas quited his master and did not choose to be a squire anylonger. He never suppose that he can become a real knight after finishing his squire experience. Now he started to fight for himself!",
+			"specialty" : 
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"tooltip" : "speciality : Offence",
+				"name" : "Offence"
+			}
+		},
+		"spellbook" :
+		[
+			"stoneSkin"		
+                ],
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "skill.offence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

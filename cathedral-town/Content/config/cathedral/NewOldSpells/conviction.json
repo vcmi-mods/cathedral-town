@@ -1,0 +1,171 @@
+{
+	"conviction":
+	{
+		"type": "ability", 
+		"name": "Conviction",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+ 
+		//forgetfulness animation
+		"animation":{
+			"affect":["catheSpells/CMG01REV.def"]
+		},
+ 
+		"flags" : {"negative": true},
+ 
+		"graphics":
+		{
+			"iconBook": "catheSpells/Scratch0.bmp",
+			"iconScroll": "catheSpells/Scratch1.bmp",
+			"iconScenarioBonus": "catheSpells/Scratch2.bmp",
+			"iconEffect": "catheSpells/conviction.bmp"
+		},
+
+		"sounds":
+		{
+			"cast":"MINKDFND"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"aiValue": 12,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stackHealth" : {
+						"val" : -20,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -5,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stackHealth" : {
+						"val" : -20,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -5,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stackHealth" : {
+						"val" : -20,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -5,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stackHealth" : {
+						"val" : -20,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -5,
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+		}
+	}
+ 
+}

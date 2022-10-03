@@ -1,0 +1,119 @@
+{
+	"cthChasteners":
+	{
+		"name" :
+		{
+			"plural" : "Chasteners",
+			"singular" : "Chastener"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "cathedral",
+		"level" : 7,
+		"attack" : 30,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 45,
+			 "max" : 55
+		},
+		"growth" : 1,
+		"hitPoints" : 200,
+		"speed" : 20,
+		"fightValue" : 5133,
+		"aiValue" : 6260,
+		 "cost" :
+		{
+			"gold" : 4800,
+			"sulfur" : 3
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL7U.def",
+			"map" : "cathedral/creatures/map/AVWCATH14.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT014S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT014.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities" :
+		{
+            
+		    
+		   "flying" :
+			{
+				"type": "FLYING",
+			// type loaded from crtraits
+			"subtype": 1 // teleports
+			},
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50
+			},
+			"hateArchAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archangel",
+				"val" : 50
+			},
+			"KING2":
+			{
+				"type" : "KING2",
+				
+			},
+			"punishAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.punishment",
+				"val" : 100
+			},
+			"convictionAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.conviction",
+				"val" : 20
+			},
+			"punishStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.punishment",
+				"val" : 20
+			},
+			"casterPrayer" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.redeem",
+				"val" : 6
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "PLIZATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "NOSFEXT1.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "NOSFEXT2.wav",
+			"startMoving": "cathedral/CCT7EXT1.wav",
+			"endMoving": "cathedral/CCT7EXT2.wav"
+		}
+	}
+}
+
+
+

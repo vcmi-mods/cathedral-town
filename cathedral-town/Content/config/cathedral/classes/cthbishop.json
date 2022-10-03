@@ -1,0 +1,93 @@
+{
+	"cthbishop" :
+	{
+		"faction" : "cathedral",
+		"animation" :
+		{
+			"battle" : 
+			{
+                 "male"   : "cathedral/battle/CH22.def",
+				"female" : "cathedral/battle/CH23.def"
+				
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "cathedral/map/AH22_.def" },
+				"female" : { "animation" : "cathedral/map/AH22_.def" }
+			}
+		},
+		
+		"name" : "Bishop",
+		
+		"affinity" : "magic",
+		
+	        "commander" : "saRedFanatic",
+
+		"primarySkills" :
+		{
+			"attack"     : 1,
+			"defence"    : 0,
+			"spellpower" : 2,
+			"knowledge"  : 3
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 10,
+			"defence"    : 10,
+			"spellpower" : 40,
+			"knowledge"  : 40
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 10,
+			"defence"    : 10,
+			"spellpower" : 40,
+			"knowledge"  : 40
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 4,
+			"archery"      : 1,
+			"logistics"    : 4,
+			"scouting"     : 1,
+			"diplomacy"    : 1,
+			"navigation"   : 1,
+			"leadership"   : 1,
+			"wisdom"       : 8,
+			"mysticism"    : 8,
+			"luck"         : 4,
+			"ballistics"   : 1,
+			"eagleEye"     : 0,
+			"necromancy"   : 0,
+			"estates"      : 1,
+			"fireMagic"    : 8,
+			"airMagic"     : 8,
+			"waterMagic"   : 8,
+			"earthMagic"   : 8,
+			"scholar"      : 0,
+			"tactics"      : 1,
+			"artillery"    : 4,
+			"learning"     : 1,
+			"offence"      : 1,
+			"armorer"      : 1,
+			"intelligence" : 8,
+			"sorcery"      : 7,
+			"resistance"   : 1,
+			"firstAid"     : 4
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 0,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4
+		}
+	}
+}

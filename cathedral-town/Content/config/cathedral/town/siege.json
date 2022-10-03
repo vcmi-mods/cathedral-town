@@ -1,0 +1,57 @@
+{
+	"cathedral" :
+	{
+		"town" :
+		{
+			"siege" :
+			{
+				"shooter" : "cthSexton",
+				"imagePrefix" : "cathedral/siege/SGCT",
+				"gate" :
+				{
+					"arch" : { "x" : 477, "y" : 238 },
+					"gate" : { "x" : 399, "y" : 274 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 403, "y" : 80 },
+					"moat" : { "x" : 410, "y" : 90 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 600, "y" : 49 },
+					"bottom" : { "x" : 512, "y" : 347 },
+					"top" : { "x" : 489, "y" : 79 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 602, "y" : 500 },
+						"creature" : { "x" : 394, "y" : 299	},
+						"tower" : { "x" : 602, "y" : 500 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 720, "y" : 158 },
+						"creature" : { "x" : 526, "y" : -29 },
+						"tower" : { "x" : 720, "y" : 158 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 557, "y" : 24 },
+						"creature" : { "x" : 342, "y" : -187 },
+						"tower" : { "x" : 569, "y" : 35 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 528, "y" : 350 },
+					"bottomMid" : { "x" : 469, "y" : 291 },
+					"upper" : { "x" : 524, "y" : 32 },
+					"upperMid" : { "x" : 470, "y" : 127 }
+				}
+			}
+		}
+	}
+}

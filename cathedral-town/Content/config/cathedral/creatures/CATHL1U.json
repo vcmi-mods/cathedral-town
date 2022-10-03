@@ -1,0 +1,77 @@
+{
+	"cthHound":
+	{
+		"name" :
+		{
+			"plural" : "Patrols",
+			"singular" : "Patrol"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 30
+		},
+		"faction" : "cathedral",
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 4,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 16,
+		"hitPoints" : 10,
+		"speed" : 6,
+		"doubleWide" : true,
+		"fightValue" : 118,
+		"aiValue" : 116,
+		"cost" :
+		{
+			"gold" : 65
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL1U.def",
+			"map" : "cathedral/creatures/map/AVWCATH02.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT002S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT002.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "cathedral/CCT1ATTK.wav",
+			"defend": "cathedral/CCT1DFND.wav",
+			"killed": "cathedral/CCT1KILL.wav",
+			"move": "cathedral/CCT1MOVE.wav",
+			"wince": "cathedral/CCT1WNCE.wav"
+               },
+		"abilities":
+		{
+	
+		      "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+		"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 20
+			}
+		}
+	}
+}
+
+
+
+
+
+

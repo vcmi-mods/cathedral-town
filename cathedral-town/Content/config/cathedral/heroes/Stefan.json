@@ -1,0 +1,59 @@
+{
+	"stefan" :
+	{
+		"class" : "cthbishop",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/stefan/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/stefan/spec-large.bmp",
+			"large" : "cathedral/heroes/stefan/portrait-large.bmp",
+			"small" : "cathedral/heroes/stefan/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Franco J",
+			"biography" : "弗朗克-杰是城镇中的主教，在灾难到来时，他拯救了很多人。但到如今，他认为惩罚比救赎更有效果。他认为当年的灾难，也许就是上天对亵渎神灵者的惩罚。所以，他致力于保护重建的教会，对于任何他认为的罪恶者，都不会再留一丝情面。",
+			"specialty" :
+			{
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Intelligence Bonus",
+				"name" : "Intelligence"
+			}
+		},
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"subtype" : "skill.intelligence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}		
+	}
+}

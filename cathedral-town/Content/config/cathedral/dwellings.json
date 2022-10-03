@@ -1,0 +1,89 @@
+
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "cathedralLevel1" : {
+                "name" : "Mound",
+                "creatures" : [[ "cthAttackDog" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH01",
+                        "mask" : ["VVV","VBB","BBA" ]
+                    }
+                }
+            },
+            "cathedralLevel2" : {
+                "name" : "Execution Ground",
+                "creatures" : [[ "cthSlayer" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH02",
+                        "mask" : [ "VBB", "VBA" ]
+                    }
+                }
+            },
+            "cathedralLevel3" : {
+                "name" : "Hunters' Guild",
+                "creatures" : [[ "cthWitchHunter" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH03",
+                        "mask" : ["VVV","VBB","VBA" ]
+                    }
+                }
+            },
+            "cathedralLevel4" : {
+                "name" : "Refuse Dump",
+                "creatures" : [[ "cthCouatl" ]],
+                "templates" : {
+                    "default" : {
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH04",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "cathedralLevel5" : {
+                "name" : "Auditorium",
+                "creatures" : [[ "cthSexton" ]],
+                "guards" : [
+                    { "amount" : 9, "type" : "cthSexton" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH05",
+                        "mask" : [ "VVV","VBB","VAB"   ]
+                    }
+                }
+            },
+            "cathedralLevel6" : {
+                "name" : "Order of Templars",
+                "creatures" : [[ "cthTemplar" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "cthTemplar" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH06",
+                        "mask" : ["VVV","BBB","BAB" ]
+                    }
+                }
+            },
+            "cathedralLevel7" : {
+                "name" : "Cursed Shrine",
+                "creatures" : [[ "cthPunisher" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "cthPunisher" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "cathedral/creatures/dwellings/AVWCATH07",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            }
+        }       
+    }
+}

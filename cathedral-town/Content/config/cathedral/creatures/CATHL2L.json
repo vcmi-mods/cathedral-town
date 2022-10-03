@@ -1,0 +1,82 @@
+{
+	"cthSlayer":
+	{
+		"name" :
+		{
+			"plural" : "Slayers",
+			"singular" : "Slayer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+
+		},
+		"faction" : "cathedral",
+		"upgrades": ["cthExecutioner"],
+		"level" : 2,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 4
+		},
+		"growth" : 8,
+		"hitPoints" : 15,
+		"speed" : 5,
+		"horde": 6,
+		"fightValue" : 143,
+		"aiValue" :136,
+		"cost" :
+		{
+			"gold" : 110
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL2L.def",
+			"map" : "cathedral/creatures/map/AVWCATH03.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT003S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT003.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+				}
+			},	
+		"sound" :
+		{
+			"attack": "ROGUATTK.wav",
+			"defend": "LCRSDFND.wav",
+			"killed": "ROGUKILL.wav",
+			"move": "ROGUMOVE.wav",
+			"wince": "ROGUWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 5
+			}
+		}	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

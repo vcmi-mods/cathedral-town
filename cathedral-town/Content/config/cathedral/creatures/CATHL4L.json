@@ -1,0 +1,80 @@
+{
+	"cthCouatl":
+	{
+		"name" :
+		{
+			"plural" : "Couatls", 
+			"singular" : "Couatl"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "cathedral",
+		"upgrades": ["cthBloodyCouatl"],
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 8
+		},
+		"growth" : 4,
+		"hitPoints" : 45,
+		"speed" : 9,
+		"doubleWide" : true,
+		"fightValue" : 1180,
+		"aiValue" : 1268,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL4L.def",
+			"map" : "cathedral/creatures/map/AVWCATH07.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT007S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT007.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "WYVMATTK.wav",
+			"defend": "YBMHDFND.wav",
+			"killed": "WYVMDFND.wav",
+			"move": "WYVMMOVE.wav",
+			"wince": "YBMHWNCE.wav"
+		},
+		"abilities" :
+		{
+			
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 10
+			},
+			"fearless":
+			{
+				"type" : "FEARLESS", 		
+			}	
+		}
+	}
+}
+
+
+
+

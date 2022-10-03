@@ -1,0 +1,62 @@
+{
+	"sveneld" :
+	{
+		"class" : "cthbishop",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/sveneld/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/sveneld/spec-large.bmp",
+			"large" : "cathedral/heroes/sveneld/portrait-large.bmp",
+			"small" : "cathedral/heroes/sveneld/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Gabrielle",
+			"biography" : "Gabrielle is a daughter of a priest. She suffered the disaster while as a child. Her father was killed by undead creatures thus she said no one hates necromancers more than her. She became a cleric only for bringing the punishment for all necromancers.",
+			"specialty" :
+			{
+				"description" : "{-1 Luck}\r\n\r\nAll enemies -1 luck during battle.",
+				"tooltip" : "Bonus: Misfortune",
+				"name" : "-1 Luck"
+			}
+		},
+		"spellbook" :
+		[
+		       "slow"
+		],
+		"specialty": 
+		[
+			{
+				"bonuses":
+				[
+			{
+				"type" : "LUCK",
+				"val" : -1,
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"valueType" : "BASE_NUMBER"
+			}
+				]
+			}
+		]		
+	}
+}

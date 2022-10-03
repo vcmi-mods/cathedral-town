@@ -1,0 +1,58 @@
+{
+	"susan" :
+	{
+		"class" : "cthbishop",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/susan/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/susan/spec-large.bmp",
+			"large" : "cathedral/heroes/susan/portrait-large.bmp",
+			"small" : "cathedral/heroes/susan/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Camellia",
+			"biography" : "Camellia's name comes from the blooming flowers in the garden. She growed up in a big manor which belonged to her family, but finally her life was destructed by disaster. Now serving as a survivor, she executes punishment for the church. She supposes beautiful garden will be reappeared after all villains are punished.",
+			"specialty" :
+			{
+				"description" : "{Frost Ring}\r\n\r\nCasts Frost Ring spell with increased effect, based on the level of the target.",
+				"tooltip" : "",
+				"name" : "Frost Ring"
+			}
+		},
+		"spellbook" :
+		[
+			"frostRing"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}				
+	}
+}

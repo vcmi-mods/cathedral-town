@@ -1,0 +1,55 @@
+{
+	"ranin" :
+	{
+		"class" : "redtemplar",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/ranin/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/ranin/spec-large.bmp",
+			"large" : "cathedral/heroes/ranin/portrait-large.bmp",
+			"small" : "cathedral/heroes/ranin/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Von Fredrich",
+			"biography" : "Von Fredrich was the mayor of the destructed city. He survived from the disaster, but his wife and three children were killed by undead creatures. He still confesses in the chapel everyday although the disaster has already past many years. He believes his sin and must be expiated by himself.",
+			"specialty" : 
+			{
+				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill.",
+				"tooltip" : "Resistance(unused)",
+				"name" : "Resistance"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"subtype" : "skill.resistance",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"core:prayer" : {
+		
+		"level": 4,
+		"graphics":
+		{
+			"iconImmune":"catheSpells/prayerImmune.bmp",
+		}
+	}
+}

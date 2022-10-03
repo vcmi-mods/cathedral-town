@@ -1,0 +1,69 @@
+{
+	"cthTemplar":
+	{
+		"name" :
+		{
+			"plural" : "Templars",
+			"singular" : "Templar"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 10
+		},
+		"faction" : "cathedral",
+		"upgrades": ["cthPaladin"],
+		"level" : 6,
+		"attack" : 16,	
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 70,
+		"speed" : 6,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL6L.def",
+			"map" : "cathedral/creatures/map/AVWCATH11.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT011S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT011.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		},
+		"abilities" :
+		{
+			
+             "enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.prayer",
+				"val" : 2
+			}
+		}
+	}
+}
+
+

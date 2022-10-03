@@ -1,0 +1,51 @@
+{
+	"tarinus" :
+	{
+		"class" : "cthbishop",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/tarinus/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/tarinus/spec-large.bmp",
+			"large" : "cathedral/heroes/tarinus/portrait-large.bmp",
+			"small" : "cathedral/heroes/tarinus/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Palencia",
+			"biography" : "Palencia turned fanatic after the disaster. Even if she is just a cleric apprentice before. She had seen her classmates are all dead in this disaster, so she decided to fight for herself. Now she became a high priest for the church.",
+			"specialty" :
+			{
+				"description" : "{Sextons}\r\n\r\nIncreases Speed of any Sextons and Cantors by 1 and their Attack and defense skills by 5% for every 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Sextons",
+				"name" : "Sextons"
+			}
+		},
+		"spellbook" :
+		[
+			"bless"
+		],
+		"specialty" : {
+			"creature" : "cthSexton"
+		}		
+	}
+}

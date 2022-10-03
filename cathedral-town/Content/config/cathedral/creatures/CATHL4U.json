@@ -1,0 +1,93 @@
+{
+	"cthBloodyCouatl":
+	{
+		"name" :
+		{
+			"plural" : "Bloody Couatls",
+			"singular" : "Bloody Couatl"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "cathedral",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 9
+		},
+		"growth" : 4,
+		"hitPoints" : 50,
+		"speed" : 11,
+		"doubleWide" : true,
+		"fightValue" : 1211,
+		"aiValue" : 1348,
+		"cost" :
+		{
+			"gold" : 450
+		},
+		"graphics" :
+		{
+			"animation" : "cathedral/creatures/battle/CATHL4U.def",
+			"map" : "cathedral/creatures/map/AVWCATH08.def",
+			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT008S.bmp",
+			"iconLarge" : "cathedral/creatures/iconsBig/CRCT008.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"abilities" :
+		{
+			"flying" :
+			{
+				"type" : "FLYING"
+			},
+			"fearless":
+			{
+				"type" : "FEARLESS", 		
+			},
+ 		      "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 10
+			},
+			"castPoison" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 10
+			},
+			"dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100
+			}
+		},
+		"sound" :
+		{
+			"attack": "WYVMATTK.wav",
+			"defend": "YBMHDFND.wav",
+			"killed": "WYVMDFND.wav",
+			"move": "WYVMMOVE.wav",
+			"wince": "YBMHWNCE.wav"
+		}
+	}
+}
+
+
+

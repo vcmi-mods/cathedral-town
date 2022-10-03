@@ -1,0 +1,47 @@
+{
+	"nariko" :
+	{
+		"class" : "redtemplar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/nariko/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/nariko/spec-large.bmp",
+			"large" : "cathedral/heroes/nariko/portrait-large.bmp",
+			"small" : "cathedral/heroes/nariko/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Leonor",
+			"biography" : "Leonor suffered this disater only in her nine-year-old age. She stayed at home for almost 5 days without water until a cleric saved her and put her into the church. She still supposes the man who saved her is actually an angel. Now she becomes increasingly pious even fanatic because of this steadfast faith.",
+			"specialty" :
+			{
+				"tooltip" : "Bonus: Couatls",
+				"description" : "{Couatls}\r\n\r\nIncreases Speed of any Couatls and Bloody Couatls by 1 and their Attack and defense skills by 5% for every 4 levels (rounded up).",
+				"name" : "Couatls"
+			}
+		},
+		"specialty" : {
+			"creature" : "cthCouatl"
+		}
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"redtemplar" :
+	{
+		"faction" : "cathedral",
+		"animation" :
+		{
+			"battle" : 
+			{
+                 "male"   : "cathedral/battle/CH22b.def",
+				"female" : "cathedral/battle/CH23b.def"
+				
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "cathedral/map/AH23_.def" },
+				"female" : { "animation" : "cathedral/map/AH23_.def" }
+			}
+		},
+		
+		"name" : "Archon",
+		
+		"affinity" : "might",
+		
+	        "commander" : "saRedFanatic",
+
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 3,
+			"spellpower" : 0,
+			"knowledge"  : 0
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 12,
+			"defence"    : 12,
+			"spellpower" : 45,
+			"knowledge"  : 45
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 15,
+			"spellpower" : 50,
+			"knowledge"  : 50
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 4,
+			"archery"      : 5,
+			"logistics"    : 4,
+			"scouting"     : 3,
+			"diplomacy"    : 4,
+			"navigation"   : 3,
+			"leadership"   : 4,
+			"wisdom"       : 8,
+			"mysticism"    : 9,
+			"luck"         : 7,
+			"ballistics"   : 4,
+			"eagleEye"     : 3,
+			"necromancy"   : 0,
+			"estates"      : 6,
+			"fireMagic"    : 9,
+			"airMagic"     : 9,
+			"waterMagic"   : 9,
+			"earthMagic"   : 9,
+			"scholar"      : 3,
+			"tactics"      : 4,
+			"artillery"    : 8,
+			"learning"     : 3,
+			"offence"      : 4,
+			"armorer"      : 5,
+			"intelligence" : 9,
+			"sorcery"      : 8,
+			"resistance"   : 4,
+			"firstAid"     : 5
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 0,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4
+		}
+	}
+}

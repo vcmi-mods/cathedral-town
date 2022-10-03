@@ -1,0 +1,47 @@
+{
+	"kasumi" :
+	{
+		"class" : "redtemplar",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/kasumi/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/kasumi/spec-large.bmp",
+			"large" : "cathedral/heroes/kasumi/portrait-large.bmp",
+			"small" : "cathedral/heroes/kasumi/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  7 }
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{ 
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Caballero",
+			"biography" : "Caballero is a gnoll and he used to be a guard who belonged to King Tarossik. Since a failure assassination he was banished to a board village, in this place he experienced invasion of undead and suffered from plague and disaster. Now he becomes a member of church and starts a new life.",
+			"specialty" :
+			{
+				"description" : "{Slayers}\r\n\r\nIncreases Speed of any Slayers and Executioners by 1 and their Attack and defense skills by 5% for every 2 levels (rounded up).",
+				"tooltip" : "Slayers Bonus",
+				"name" : "Slayers"
+			}
+		},
+		"specialty" : {
+			"creature" : "cthSlayer"
+		}		
+	}
+}

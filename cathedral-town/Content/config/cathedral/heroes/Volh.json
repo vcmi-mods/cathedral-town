@@ -1,0 +1,58 @@
+{
+	"volh" :
+	{
+		"class" : "cthbishop",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "cathedral/heroes/volh/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/volh/spec-large.bmp",
+			"large" : "cathedral/heroes/volh/portrait-large.bmp",
+			"small" : "cathedral/heroes/volh/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
+			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
+			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Jean Cesar",
+			"biography" : "Jean Cesar's best friend was dead in the disaster. It changed the heart for the man who used to be devoutness. After that, he has becomed increasingly insane and inaccessible. People said his intention of revenge has already destroys his remained benovolent.",
+			"specialty" :
+			{
+				"description" : "{Fireball}\r\n\r\nCasts Fireball spell with increased effect, based on the level of the target.",
+				"tooltip" : "Secondary Skill Bonus",
+				"name" : "Fireball"
+			}
+		},
+		"spellbook": [ "fireball" ],
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"subtype" : "spell.fireball",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+
+
+
