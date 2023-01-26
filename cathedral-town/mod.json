@@ -15,6 +15,16 @@
 		"1.0.1"   : [ "Special buildings support" ],
 		"1.0.0"   : [ "Initial release" ]
     },
+    
+    "german" : {
+		"name" : "Kathedrale",
+		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",
+		"modType" : "Stadt",
+		
+		"translations" : [
+			"config/cathedral/translation/german.json"
+		]
+	},
 	
 	"factions" :
 	[
