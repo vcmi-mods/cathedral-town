@@ -28,22 +28,22 @@
 		{
 			"attack"     : 2,
 			"defence"    : 3,
-			"spellpower" : 0,
-			"knowledge"  : 0
+			"spellpower" : 1,
+			"knowledge"  : 1
 		},
 		"lowLevelChance" :
 		{
-			"attack"     : 12,
-			"defence"    : 12,
-			"spellpower" : 45,
-			"knowledge"  : 45
+			"attack"     : 15,
+			"defence"    : 15,
+			"spellpower" : 35,
+			"knowledge"  : 35
 		},
 		"highLevelChance" :
 		{
-			"attack"     : 15,
-			"defence"    : 15,
-			"spellpower" : 50,
-			"knowledge"  : 50
+			"attack"     : 5,
+			"defence"    : 5,
+			"spellpower" : 45,
+			"knowledge"  : 45
 		},
 		"secondarySkills" :
 		{

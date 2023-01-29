@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
     {
+		"1.0.3"   : [ "Fixed values and german support added" ],
 		"1.0.2"   : [ "Grail building support" ],
 		"1.0.1"   : [ "Special buildings support" ],
 		"1.0.0"   : [ "Initial release" ]
@@ -22,7 +23,7 @@
 		"modType" : "Stadt",
 		
 		"translations" : [
-			"config/cathedral/translation/german.json"
+			"translation/german.json"
 		]
 	},
 	
