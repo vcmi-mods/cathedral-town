@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.0.2",
+	"version" : "1.0.4",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -10,18 +10,18 @@
 		"min" : "1.0.0"
 	},	
 	"changelog" :
-    {
-		"1.0.3"   : [ "Fixed values and german translation added" ],
+	{
+		"1.0.4"   : [ "Arrow tower icons added" ],
+		"1.0.3"   : [ "Fixed values and german support added" ],
 		"1.0.2"   : [ "Grail building support" ],
 		"1.0.1"   : [ "Special buildings support" ],
 		"1.0.0"   : [ "Initial release" ]
-    },
-    
-    "german" : {
+	},
+	
+	"german" : {
 		"name" : "Kathedrale",
 		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",
-		"modType" : "Stadt",
-		
+		"modType" : "Stadt",		
 		"translations" : [
 			"translation/german.json"
 		]
@@ -29,57 +29,57 @@
 	
 	"factions" :
 	[
-	"config/cathedral/town/buildings.json",
-	"config/cathedral/town/faction.json",
-	"config/cathedral/town/puzzle.json",
-	"config/cathedral/town/siege.json",
-	"config/cathedral/town/structures.json"
+		"config/cathedral/town/buildings.json",
+		"config/cathedral/town/faction.json",
+		"config/cathedral/town/puzzle.json",
+		"config/cathedral/town/siege.json",
+		"config/cathedral/town/structures.json"
 	],
     
 	"creatures" :
-    [
-	"config/cathedral/creatures/CATHL1L.json",
-	"config/cathedral/creatures/CATHL1U.json",
-	"config/cathedral/creatures/CATHL2L.json",
-	"config/cathedral/creatures/CATHL2U.json",
-	"config/cathedral/creatures/CATHL3L.json",
-	"config/cathedral/creatures/CATHL3U.json",
-	"config/cathedral/creatures/CATHL4L.json",
-	"config/cathedral/creatures/CATHL4U.json",
-	"config/cathedral/creatures/CATHL5L.json",
-	"config/cathedral/creatures/CATHL5U.json",
-	"config/cathedral/creatures/CATHL6L.json",
-	"config/cathedral/creatures/CATHL6U.json",
-	"config/cathedral/creatures/CATHL7L.json",
-	"config/cathedral/creatures/CATHL7U.json",
-	"config/cathedral/creatures/RedFanatic.json"
-    ],
+	[
+		"config/cathedral/creatures/CATHL1L.json",
+		"config/cathedral/creatures/CATHL1U.json",
+		"config/cathedral/creatures/CATHL2L.json",
+		"config/cathedral/creatures/CATHL2U.json",
+		"config/cathedral/creatures/CATHL3L.json",
+		"config/cathedral/creatures/CATHL3U.json",
+		"config/cathedral/creatures/CATHL4L.json",
+		"config/cathedral/creatures/CATHL4U.json",
+		"config/cathedral/creatures/CATHL5L.json",
+		"config/cathedral/creatures/CATHL5U.json",
+		"config/cathedral/creatures/CATHL6L.json",
+		"config/cathedral/creatures/CATHL6U.json",
+		"config/cathedral/creatures/CATHL7L.json",
+		"config/cathedral/creatures/CATHL7U.json",
+		"config/cathedral/creatures/RedFanatic.json"
+	],
 	
 	"heroClasses" :
 	[
-	"config/cathedral/classes/cthbishop.json",
-	"config/cathedral/classes/redtemplar.json"
+		"config/cathedral/classes/cthbishop.json",
+		"config/cathedral/classes/redtemplar.json"
 	],
     
 	"heroes" :
-    [
-	"config/cathedral/heroes/Brooke.json",
-	"config/cathedral/heroes/Erika.json",
-	"config/cathedral/heroes/Helena.json",
-	"config/cathedral/heroes/Kasumi.json",
-	"config/cathedral/heroes/Nariko.json",
-	"config/cathedral/heroes/Noli.json",
-	"config/cathedral/heroes/Patricia.json",
-	"config/cathedral/heroes/Ranin.json",
-	"config/cathedral/heroes/Salvirana.json",
-	"config/cathedral/heroes/Stefan.json",
-	"config/cathedral/heroes/Sveneld.json",
-	"config/cathedral/heroes/Svetlana.json",
-	"config/cathedral/heroes/Susan.json",
-	"config/cathedral/heroes/Tarinus.json",
-	"config/cathedral/heroes/Volh.json",
-	"config/cathedral/heroes/Vseglas.json"
-    ],
+	[
+		"config/cathedral/heroes/Brooke.json",
+		"config/cathedral/heroes/Erika.json",
+		"config/cathedral/heroes/Helena.json",
+		"config/cathedral/heroes/Kasumi.json",
+		"config/cathedral/heroes/Nariko.json",
+		"config/cathedral/heroes/Noli.json",
+		"config/cathedral/heroes/Patricia.json",
+		"config/cathedral/heroes/Ranin.json",
+		"config/cathedral/heroes/Salvirana.json",
+		"config/cathedral/heroes/Stefan.json",
+		"config/cathedral/heroes/Sveneld.json",
+		"config/cathedral/heroes/Svetlana.json",
+		"config/cathedral/heroes/Susan.json",
+		"config/cathedral/heroes/Tarinus.json",
+		"config/cathedral/heroes/Volh.json",
+		"config/cathedral/heroes/Vseglas.json"
+	],
 	
 	"spells" :
 	[
@@ -95,8 +95,8 @@
 	],
     
 	"objects" :
-    [
+	[
         "config/cathedral/dwellings.json"
-    ]
+	]
 }
 

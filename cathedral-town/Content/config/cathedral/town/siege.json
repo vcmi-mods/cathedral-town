@@ -7,6 +7,8 @@
 			{
 				"shooter" : "cthSexton",
 				"imagePrefix" : "cathedral/siege/SGCT",
+				"towerIconSmall" : "cathedral/icons/arrowtowerssmall",
+				"towerIconLarge" : "cathedral/icons/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 477, "y" : 238 },

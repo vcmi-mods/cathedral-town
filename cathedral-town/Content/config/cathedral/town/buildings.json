@@ -294,9 +294,9 @@
 					{
 						"gold" : 1000
 					},
-                    "upgrades" : "special1",
+ //                   "upgrades" : "special1",
 					"bonuses": [ { "type": "LUCK", "val": 2 } ],
-					"id" : 23
+					"id" : 21
 				},	
 
 				"grail" :
