@@ -23,7 +23,7 @@
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
-			},
+			}
 		],
 		"texts" :
 		{
@@ -45,7 +45,7 @@
 				"health" : {
 					"type" : "STACK_HEALTH",
 						"val" : 10,
-						"valueType" : "PERCENT_TO_BASE",
+						"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		}			

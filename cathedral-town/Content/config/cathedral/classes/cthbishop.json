@@ -7,9 +7,8 @@
 			"battle" : 
 			{
                  "male"   : "cathedral/battle/CH22.def",
-				"female" : "cathedral/battle/CH23.def"
-				
-			},
+				"female" : "cathedral/battle/CH23.def"	
+			}
 		},
 		"mapObject" : {
 			"templates" : {

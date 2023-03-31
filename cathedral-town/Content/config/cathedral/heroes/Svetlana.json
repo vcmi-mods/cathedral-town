@@ -26,7 +26,7 @@
 			{
 				"level" : "basic",
 				"skill" : "leadership"
-			},
+			}
 		],
 		"texts" :
 		{
@@ -43,20 +43,17 @@
 		[
 		       "curse"
 		],
-		"specialty": 
-		[
-			{
-				"bonuses":
-				[
-			{
-				"type" : "MORALE",
-				"val" : -1,
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"valueType" : "BASE_NUMBER"
+		"specialty" : {
+			"bonuses" : {
+				"badLuck" : {
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"type" : "MORALE", 
+					"val" : -1 
+				}
 			}
-				]
-			}
-		]		
+		}	
 	}
 }
 

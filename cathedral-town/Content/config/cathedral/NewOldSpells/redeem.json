@@ -72,8 +72,8 @@
 					"redeem" : {
 						"type" : "STACK_HEALTH",
 						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE",
-						},
+						"valueType" : "PERCENT_TO_BASE"
+					},
 					"redeem2" :{
 						"type" : "HP_REGENERATION",
 						"val" : 100,
@@ -92,7 +92,7 @@
 					"redeem" : {
 						"type" : "STACK_HEALTH",
 						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE",
+						"valueType" : "PERCENT_TO_BASE"
 						},
 					"redeem2" :{
 						"type" : "HP_REGENERATION",
@@ -112,7 +112,7 @@
 					"redeem" : {
 						"type" : "STACK_HEALTH",
 						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE",
+						"valueType" : "PERCENT_TO_BASE"
 						},
 					"redeem2" :{
 						"type" : "HP_REGENERATION",
@@ -132,8 +132,8 @@
 					"redeem" : {
 						"type" : "STACK_HEALTH",
 						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE",
-						},
+						"valueType" : "PERCENT_TO_BASE"
+					},
 					"redeem2" :{
 						"type" : "HP_REGENERATION",
 						"val" : 100,

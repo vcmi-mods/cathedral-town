@@ -27,7 +27,7 @@
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
-			},
+			}
 		],
 		"texts" :
 		{
@@ -36,7 +36,7 @@
 			"specialty" :
 			{
 				"description" : "{Frost Ring}\r\n\r\nCasts Frost Ring spell with increased effect, based on the level of the target.",
-				"tooltip" : "",
+				"tooltip" : "Spell bonus: Frost ring",
 				"name" : "Frost Ring"
 			}
 		},

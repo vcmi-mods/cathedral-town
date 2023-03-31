@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" : "cathedral/creatures/battle/CATHL6U.def",
 			"map" : "cathedral/creatures/map/AVWCATH12.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT012S.bmp",

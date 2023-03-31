@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"animation" : "cathedral/creatures/battle/CATHL3U.def",
 			"map" : "cathedral/creatures/map/AVWCATH06.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT006S.bmp",

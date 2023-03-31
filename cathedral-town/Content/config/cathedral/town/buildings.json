@@ -385,7 +385,7 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gems" : 3,
-						"sulfur" : 3,
+						"sulfur" : 3
 					},
 					"requires" : [ "allOf", ["dwellingLvl5"], ["fort"], ["blacksmith"] ],
 					"id" : 35
@@ -490,7 +490,7 @@
 						"ore" : 5,
 						"gems" : 3,
 						"crystal" : 3,
-						"sulfur" : 3,
+						"sulfur" : 3
 					},
 					"id" : 42,
                     "requires" :  [ "allOf", ["special3"],["fort"] ],

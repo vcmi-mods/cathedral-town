@@ -27,7 +27,7 @@
 			{ 
 				"level" : "basic",
 				"skill" : "pathfinding"
-			},
+			}
 		],
 		"texts" :
 		{

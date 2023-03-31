@@ -27,7 +27,7 @@
 			{
 				"level" : "basic",
 				"skill" : "resistance"
-			},
+			}
 		],
 		"texts" :
 		{
@@ -43,11 +43,11 @@
 		"specialty" : {
 			"bonuses" : {
 				"resistance" : {
-					"subtype" : "skill.resistance",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MAGIC_RESISTANCE",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

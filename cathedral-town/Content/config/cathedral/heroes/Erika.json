@@ -27,7 +27,7 @@
 			{
 				"level" : "basic",
 				"skill" : "tactics"
-			},
+			}
 		],
 		"texts" :
 		{
@@ -36,7 +36,7 @@
 			"specialty" :
 			{
 				"description" : "{Templars}\r\n\r\nIncreases Speed of any Templars and Dark Templars by 1 and their Attack and defense skills by 5% for every 6 levels (rounded up).",
-				"tooltip" : "",
+				"tooltip" : "Creature bonus: Templars",
 				"name" : "Templars"
 			}
 		},

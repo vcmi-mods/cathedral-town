@@ -41,8 +41,7 @@
 			{
 				"walk" : 1,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"abilities" :
@@ -53,7 +52,7 @@
 			},
 			"fearless":
 			{
-				"type" : "FEARLESS", 		
+				"type" : "FEARLESS"
 			},
  		      "immuneToMind" : 
 			{
