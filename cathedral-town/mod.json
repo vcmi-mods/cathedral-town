@@ -20,8 +20,7 @@
 	
 	"german" : {
 		"name" : "Kathedrale",
-		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",
-		"modType" : "Stadt",		
+		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",	
 		"translations" : [
 			"translation/cathedral/german.json"
 		]
