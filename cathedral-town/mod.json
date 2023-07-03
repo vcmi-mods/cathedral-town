@@ -21,6 +21,7 @@
 	},
 	
 	"chinese" : {
+		"name" : "教廷",
 		"translations" : [
 			"translation/cathedral/chinese.json"
 		]
