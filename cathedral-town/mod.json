@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -11,12 +11,19 @@
 	},	
 	"changelog" :
 	{
+		"1.0.6"   : [ "Chinese  translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.0.5"   : [ "Changes for vcmi-1.2" ],
 		"1.0.4"   : [ "Arrow tower icons added" ],
 		"1.0.3"   : [ "Fixed values and german support added" ],
 		"1.0.2"   : [ "Grail building support" ],
 		"1.0.1"   : [ "Special buildings support" ],
 		"1.0.0"   : [ "Initial release" ]
+	},
+	
+	"chinese" : {
+		"translations" : [
+			"translation/cathedral/chinese.json"
+		]
 	},
 	
 	"german" : {
