@@ -31,7 +31,7 @@
 		"texts" :
 		{
 			"name" : "Riera the Baroness",
-			"biography" : "Someone said Riera looks like the Countess in tale, but she is really a kind woman and often helps the poverty. Maybe such view only because her husband Baron Von Schiffer was dead in the disaster and became a vampire by necromancers. ",
+			"biography" : "Someone said Riera looks like the Countess in tale, but she is really a kind woman and often helps the poverty. Maybe such view only because her husband Baron Von Schiffer was dead in the disaster and became a vampire by necromancers.",
 			"specialty" :
 			{
 				"description" : "{Weakness}\r\n\r\nCasts Weakness spell with increased effect, based on the level of the target.",

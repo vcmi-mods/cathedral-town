@@ -19,6 +19,15 @@
 		"1.0.1"   : [ "Special buildings support" ],
 		"1.0.0"   : [ "Initial release" ]
 	},
+
+	"french" : {
+		"name" : "Cathédrale",
+		"description" : "La ville Cathédrale est un mod recréé par Ben Yan",
+		"modType" : "Ville",
+		"translations" : [
+			"translation/cathedral/french.json"
+		]
+	},
 	
 	"chinese" : {
 		"name" : "教廷",
