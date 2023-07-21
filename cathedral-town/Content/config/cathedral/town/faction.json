@@ -4,6 +4,7 @@
 		"name" : "Cathedral",
 		"nativeTerrain" : "dirt",
 		"alignment" : "evil",
+		"boat" : "boatNecropolis",
 		"creatureBackground" :
 		{
 			"120px" : "cathedral/TPCASCTH.bmp",
@@ -143,6 +144,7 @@
 				["cthPunisher", "cthChasteners" ]
 			],
 			"horde" : [ 1, 4 ],
+			"moatAbility" : "cathedralMoat",
 			"icons" : {
 				"fort" : {
 					"built" : {
@@ -164,8 +166,6 @@
                         },
 			"mageGuild" : 5,
 			"warMachine" : "firstAidTent",
-			"moatDamage" : 90,
-			"moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
 			"names" : [
 				"Jevonchurch", //in Russian: Джевонс Церковь; in Chinese: 圣佑镇
 				"Townsville",	// in Russian: Таунсвилл; in Chinese: 汤斯维尔
