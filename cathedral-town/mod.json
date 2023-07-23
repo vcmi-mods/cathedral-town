@@ -23,7 +23,6 @@
 	"french" : {
 		"name" : "Cathédrale",
 		"description" : "La ville Cathédrale est un mod recréé par Ben Yan",
-		"modType" : "Ville",
 		"translations" : [
 			"translation/cathedral/french.json"
 		]
@@ -91,7 +90,7 @@
 		"config/cathedral/heroes/Salvirana.json",
 		"config/cathedral/heroes/Stefan.json",
 		"config/cathedral/heroes/Sveneld.json",
-		"config/cathedral/heroes/Svetlana.json",
+		"config/cathedral/heroes/Amanda.json",
 		"config/cathedral/heroes/Susan.json",
 		"config/cathedral/heroes/Tarinus.json",
 		"config/cathedral/heroes/Volh.json",
