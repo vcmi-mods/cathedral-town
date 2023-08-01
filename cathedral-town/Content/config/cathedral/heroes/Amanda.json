@@ -1,14 +1,14 @@
 {
-	"svetlana" :
+	"amanda" :
 	{
 		"class" : "cthbishop",
 		"female" : true,
 		"images" :
 		{
-			"specialtySmall" : "cathedral/heroes/svetlana/spec-small.bmp",
-			"specialtyLarge" : "cathedral/heroes/svetlana/spec-large.bmp",
-			"large" : "cathedral/heroes/svetlana/portrait-large.bmp",
-			"small" : "cathedral/heroes/svetlana/portrait-small.bmp"
+			"specialtySmall" : "cathedral/heroes/amanda/spec-small.bmp",
+			"specialtyLarge" : "cathedral/heroes/amanda/spec-large.bmp",
+			"large" : "cathedral/heroes/amanda/portrait-large.png",
+			"small" : "cathedral/heroes/amanda/portrait-small.png"
 		},
 
 		"army" :

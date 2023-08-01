@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.0.7",
+	"version" : "1.0.8",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.0.8"   : [ "Portait reworks" ],
 		"1.0.7"   : [ "Update to vcmi-1.3" ],
 		"1.0.6"   : [ "Chinese  translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.0.5"   : [ "Changes for vcmi-1.2" ],
@@ -24,7 +25,6 @@
 	"french" : {
 		"name" : "Cathédrale",
 		"description" : "La ville Cathédrale est un mod recréé par Ben Yan",
-		"modType" : "Ville",
 		"translations" : [
 			"translation/cathedral/french.json"
 		]
@@ -92,7 +92,7 @@
 		"config/cathedral/heroes/Salvirana.json",
 		"config/cathedral/heroes/Stefan.json",
 		"config/cathedral/heroes/Sveneld.json",
-		"config/cathedral/heroes/Svetlana.json",
+		"config/cathedral/heroes/Amanda.json",
 		"config/cathedral/heroes/Susan.json",
 		"config/cathedral/heroes/Tarinus.json",
 		"config/cathedral/heroes/Volh.json",
