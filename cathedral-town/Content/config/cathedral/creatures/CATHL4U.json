@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Bloody Couatls",
-			"singular" : "Bloody Couatl"
+			"plural" : "Gluttons",
+			"singular" : "Glutton"
 		},
 		"advMapAmount" :
 		{
@@ -21,11 +21,11 @@
 			 "max" : 9
 		},
 		"growth" : 4,
-		"hitPoints" : 50,
+		"hitPoints" : 45,
 		"speed" : 11,
 		"doubleWide" : true,
-		"fightValue" : 1211,
-		"aiValue" : 1348,
+		"fightValue" : 611,
+		"aiValue" : 748,
 		"cost" :
 		{
 			"gold" : 450
@@ -52,7 +52,7 @@
 			},
 			"fearless":
 			{
-				"type" : "FEARLESS"
+				"type" : "FEARLESS", 		
 			},
  		      "immuneToMind" : 
 			{
@@ -64,12 +64,6 @@
 				"subtype" : "spell.disease",
 				"val" : 10
 			},
-			"castPoison" : 
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
-				"val" : 10
-			},
 			"dispellHelpful" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
@@ -77,6 +71,50 @@
 				"val" : 100
 			}
 		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+			}
+		],
 		"sound" :
 		{
 			"attack": "WYVMATTK.wav",

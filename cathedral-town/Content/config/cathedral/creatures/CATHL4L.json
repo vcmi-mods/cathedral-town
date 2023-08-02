@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Couatls", 
-			"singular" : "Couatl"
+			"plural" : "Gourmands", 
+			"singular" : "Gourmand"
 		},
 		"advMapAmount" :
 		{
@@ -25,8 +25,8 @@
 		"hitPoints" : 45,
 		"speed" : 9,
 		"doubleWide" : true,
-		"fightValue" : 1180,
-		"aiValue" : 1268,
+		"fightValue" : 580,
+		"aiValue" : 668,
 		"cost" :
 		{
 			"gold" : 400
@@ -68,9 +68,53 @@
 			},
 			"fearless":
 			{
-				"type" : "FEARLESS"	
+				"type" : "FEARLESS", 		
 			}	
-		}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]
+			}
+		]
 	}
 }
 

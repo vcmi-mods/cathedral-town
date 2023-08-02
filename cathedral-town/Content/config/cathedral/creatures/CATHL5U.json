@@ -23,7 +23,7 @@
 		"growth" : 3,
 		"hitPoints" : 40,
 		"speed" : 6,
-		"shots" : 999,
+		"shots" : 16,
 		"horde": 2,
 		"fightValue" : 1063,
 		"aiValue" : 1182,
@@ -89,7 +89,67 @@
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.cantorShot"
 			}
-		}	
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION",
+				"subtype" : 1, //shield effect
+				},
+				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_DAMAGE_REDUCTION"
+				},
+				"values" : [ 3, 6, 9, 12, 15, 21, 24, 27, 30, 33]
+			}
+		]	
 	}
 }
 

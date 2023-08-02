@@ -1,0 +1,165 @@
+{
+	"divineRevenge":
+	{
+		"type": "combat", 
+		"name": "Divine Execution",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 5,
+		"power": 70,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"cathedral": 60,
+			"tower": 0,
+			"necropolis": 0,
+			"conflux" : 0,
+		},
+ 
+		"flags" :
+		{
+			"damage": true,
+			"offensive": true,
+			"negative": true
+		},
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},			
+			"noneOf" : {
+				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
+
+			}
+	}, 
+ 
+		"graphics":
+		{
+			"iconBook": "catheSpells/dFreezeBook.bmp",
+			"iconScroll": "catheSpells/dFreezeScroll.bmp",
+			"iconScenarioBonus": "catheSpells/dFreezeScenario.bmp",
+			"iconEffect": "catheSpells/dFreezeEffect.bmp",
+			"iconImmune": "catheSpells/dFreezeImmune.bmp"
+		},
+		
+		"animation":
+		{
+			"affect":[{"defName":"catheSpells/eSpell.def","verticalPosition":"bottom"}]
+		},
+
+		"sounds":
+		{
+			"cast":"PRAYER"
+		},
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"aiValue": 15,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n",
+	 
+				"cost": 30,
+				"power": 50,
+	 
+				"effects":
+				{
+					"defence" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "STACK_GETS_TURN"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -2,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n",
+	 
+				"cost": 30,
+				"power": 50,
+	 
+				"effects":
+				{
+					"defence" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "STACK_GETS_TURN"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -2,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 3.\n",
+	 
+				"cost": 25,
+				"power": 200,
+	 
+				"effects":
+				{
+					"defence" : {
+						"val" : -3,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "STACK_GETS_TURN"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -3,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 5.\n",
+	 
+				"cost": 25,
+				"power": 400,
+	 
+				"effects":
+				{
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "STACK_GETS_TURN"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -5,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			}
+		}
+	}
+ 
+}
