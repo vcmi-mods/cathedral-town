@@ -78,7 +78,7 @@
 					"defence" : {
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					}
 				}
@@ -100,7 +100,7 @@
 					"defence" : {
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					}
 				}
@@ -122,7 +122,7 @@
 					"defence" : {
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					}
 				}
@@ -144,7 +144,7 @@
 					"defence" : {
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					}
 				}
