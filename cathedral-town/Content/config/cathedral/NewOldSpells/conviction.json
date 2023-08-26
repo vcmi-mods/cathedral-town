@@ -70,12 +70,12 @@
 					"defence" : {
 						"val" : -5,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					},
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : -5,
 						"duration" : "N_TURNS"
 					}
@@ -98,12 +98,12 @@
 					"defence" : {
 						"val" : -5,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					},
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : -5,
 						"duration" : "N_TURNS"
 					}
@@ -126,12 +126,12 @@
 					"defence" : {
 						"val" : -5,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					},
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : -5,
 						"duration" : "N_TURNS"
 					}
@@ -154,12 +154,12 @@
 					"defence" : {
 						"val" : -5,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"duration" : "N_TURNS"
 					},
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : -5,
 						"duration" : "N_TURNS"
 					}
