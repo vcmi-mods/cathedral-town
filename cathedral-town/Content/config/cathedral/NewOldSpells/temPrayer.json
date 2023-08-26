@@ -70,13 +70,13 @@
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 2,
 						"duration" : "PERMANENT"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 2,
 						"duration" : "PERMANENT"
 					},
@@ -98,13 +98,13 @@
 				{
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 4,
 						"duration" : "PERMANENT"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 4,
 						"duration" : "PERMANENT"
 					},
@@ -126,13 +126,13 @@
 				{
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 4,
 						"duration" : "PERMANENT"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 4,
 						"duration" : "PERMANENT"
 					},
@@ -154,13 +154,13 @@
 				{
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 4,
 						"duration" : "PERMANENT"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 4,
 						"duration" : "PERMANENT"
 					},
