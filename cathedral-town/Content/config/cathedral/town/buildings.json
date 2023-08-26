@@ -305,9 +305,9 @@
 					"name" : "Light of Judgement",
 					"id" : 26,
 					"bonuses": [
-								{ "type": "PRIMARY_SKILL", "subtype": "primSkill.attack", "val": 10 },
-								{ "type": "MAGIC_SCHOOL_SKILL", "subtype": 1,"val": 3,"propagator": "PLAYER_PROPAGATOR"  },
-								{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 10 }
+								{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.attack", "val": 10 },
+								{ "type": "MAGIC_SCHOOL_SKILL", "subtype": "spellSchool.fire","val": 3,"propagator": "PLAYER_PROPAGATOR"  },
+								{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower", "val": 10 }
 								],
 					"mode" : "grail"
 				},
