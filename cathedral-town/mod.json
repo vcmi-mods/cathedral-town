@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.1.0",
+	"version" : "1.1.1",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.1.1"   : [ "New spell" ],
 		"1.1.0"   : [ "New updates" ],
 		"1.0.8"   : [ "Portait reworks" ],
 		"1.0.7"   : [ "Update to vcmi-1.3" ],
@@ -33,6 +34,7 @@
 	
 	"chinese" : {
 		"name" : "教廷",
+		"description" : "教廷",
 		"translations" : [
 			"translation/cathedral/chinese.json"
 		]
@@ -106,6 +108,7 @@
 		"config/cathedral/NewOldSpells/conviction.json",
 		"config/cathedral/NewOldSpells/punishment.json",
 		"config/cathedral/NewOldSpells/temPrayer.json",
+		"config/cathedral/NewOldSpells/confessionSong.json",
 		"config/cathedral/NewOldSpells/redeem.json",
 		"config/cathedral/NewOldSpells/cantorShot.json",
 		"config/cathedral/NewOldSpells/prayerImmune.json",
@@ -119,4 +122,3 @@
         "config/cathedral/dwellings.json"
 	]
 }
-

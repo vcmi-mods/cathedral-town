@@ -4,7 +4,10 @@
 		"level": 4,
 		"graphics":
 		{
-			"iconImmune":"catheSpells/prayerImmune.bmp"
+			"iconImmune":"catheSpells/prayerImmune.bmp",
+		},
+		"counters" : {
+			"spell.confessionSong":true
 		}
 	}
 }

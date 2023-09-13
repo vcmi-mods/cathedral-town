@@ -1,0 +1,172 @@
+{
+	"confessionSong" : {
+		"type": "combat",
+		"targetType" : "CREATURE", 
+		"name": "Confession Song",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 4,
+		"power": 20,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+
+		"cathedral" : 50,
+		},
+		
+		"animation":{
+			"affect":[{ "defName":"catheSpells/Csong.def"}]
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "catheSpells/csongBook.bmp",
+			"iconScroll": "catheSpells/csongScroll.bmp",
+			"iconScenarioBonus": "catheSpells/csongScenario.bmp",
+			"iconEffect": "catheSpells/csongEffect.bmp"
+		},
+		
+		"sounds": {
+			"cast": "DRGNSLAY"
+		},
+		"levels" : {
+			"base":
+			{
+				"aiValue": 15,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"cost": 16,
+				"power": 20,
+			    "description": "{Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.",
+				
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"basic":
+			{
+				"cost": 16,
+				"power": 20,
+			    "description": "{Basic Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.",
+				
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"advanced":
+			{
+			    "cost": 16,
+				"power": 20,
+				"description": "{Advanced Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.\n\nEffect is twice that of Basic Confession Song.",
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -4,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : -4,
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -4,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"expert":
+			{
+			    "cost": 14,
+				"power": 20,
+				"description": "{Expert Confession Song}\n\nReduce the attack strength, defense strength and speed of all enemy unit.\n\nEffect is twice that of Basic Confession Song.",
+				
+				"range" : "X",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : -4,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"val" : -4,
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -4,
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+		},
+		"counters" : {
+			"spell.prayer":true
+		},
+		"flags" : {
+			"negative": true
+			}
+		}
+
+}
