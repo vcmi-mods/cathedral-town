@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.1.1",
+	"version" : "1.1.2",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.1.2"   : [ "Polish translation by Dru" ],
 		"1.1.1"   : [ "New spell" ],
 		"1.1.0"   : [ "New updates" ],
 		"1.0.8"   : [ "Portait reworks" ],
@@ -45,6 +46,14 @@
 		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",	
 		"translations" : [
 			"translation/cathedral/german.json"
+		]
+	},
+		
+	"polish" : {
+		"name" : "Katedra",
+		"description" : "Katedra to mod odtworzony przez Bena Yana",	
+		"translations" : [
+			"translation/cathedral/polish.json"
 		]
 	},
 	
