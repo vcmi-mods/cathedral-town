@@ -64,7 +64,8 @@
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.scratch",
-				"val" : 20
+				"val" : 20,
+				"addInfo" : [1, 2]
 			}
 		}	
 	}

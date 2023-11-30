@@ -36,7 +36,7 @@
 			"map" : "cathedral/creatures/map/AVWCATH02.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT002S.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/CRCT002.bmp",
-                        "timeBetweenFidgets" : 1,
+            "timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
 				"walk" : 1,
@@ -63,7 +63,8 @@
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disease",
-				"val" : 20
+				"val" : 20,
+				"addInfo" : [1, 2]
 			}
 		}
 	}

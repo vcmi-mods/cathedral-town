@@ -2,15 +2,16 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.1.2",
+	"version" : "1.1.3",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.3.0"
+		"min" : "1.4.0"
 	},	
 	"changelog" :
 	{
+		"1.1.3"   : [ "Update to vcmi-1.4 format" ],
 		"1.1.2"   : [ "Polish translation by Dru" ],
 		"1.1.1"   : [ "New spell" ],
 		"1.1.0"   : [ "New updates" ],
