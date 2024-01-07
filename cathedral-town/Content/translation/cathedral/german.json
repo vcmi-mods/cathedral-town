@@ -208,5 +208,12 @@
 	"spell.cathedral-town.punishment.name" : "Bestrafung",
 	"spell.cathedral-town.redeem.name" : "Einlösen",
 	"spell.cathedral-town.scratch.name" : "Kratzer",
-	"spell.cathedral-town.temPrayer.name" : "Himmlisches Licht"
+	"spell.cathedral-town.temPrayer.name" : "Himmlisches Licht",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name": "Hügel",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name": "Hinrichtungsplatz",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name": "Gilde der Jäger",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name": "Mülldeponie",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name": "Auditorium",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name": "Templerorden",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name": "Verfluchter Schrein"
 }

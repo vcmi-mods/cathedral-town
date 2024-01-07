@@ -78,34 +78,42 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "attack",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
 				"bonus" :

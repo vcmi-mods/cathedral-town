@@ -208,5 +208,12 @@
 	"spell.cathedral-town.punishment.name" : "Châtiment",
 	"spell.cathedral-town.redeem.name" : "Rédemption",
 	"spell.cathedral-town.scratch.name" : "Grattage",
-	"spell.cathedral-town.temPrayer.name" : "Lumière céleste"
+	"spell.cathedral-town.temPrayer.name" : "Lumière céleste",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name": "Butte",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name": "Guillotine",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name": "Guilde des chasseurs",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name": "Décharge",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name": "Auditorium",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name": "Ordre du Temple",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name": "Sanctuaire maudit"
 }

@@ -214,5 +214,12 @@
 	"spell.cathedral-town.punishment.name" : "惩戒",
 	"spell.cathedral-town.redeem.name" : "救赎",
 	"spell.cathedral-town.scratch.name" : "撕裂",
-	"spell.cathedral-town.temPrayer.name" : "圣光"
+	"spell.cathedral-town.temPrayer.name" : "圣光",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name": "废弃小屋",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name": "刑场",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name": "猎人公会",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name": "废墟",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name": "礼拜堂",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name": "圣武士序列",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name": "审判祭坛"
 }

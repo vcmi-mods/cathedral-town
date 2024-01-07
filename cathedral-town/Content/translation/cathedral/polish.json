@@ -208,5 +208,12 @@
 	"spell.cathedral-town.punishment.name" : "Ukaranie",
 	"spell.cathedral-town.redeem.name" : "Odkupienie",
 	"spell.cathedral-town.scratch.name" : "Blizna",
-	"spell.cathedral-town.temPrayer.name" : "Niebiańskie Światło"
+	"spell.cathedral-town.temPrayer.name" : "Niebiańskie Światło",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name": "Kopiec",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name": "Miejsce egzekucji",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name": "Gildia Łowców",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name": "Składowisko",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name": "Audytorium",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name": "Zakon Templariuszy",
+    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name": "Przeklęta świątynia"
 }

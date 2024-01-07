@@ -10,19 +10,19 @@
                 "doubleWide" : false,
 		"level" : 0,
 		"special": true,
-		"attack" : 7,
-		"defense" : 7,
+		"attack" : 5,
+		"defense" : 5,
 		"damage" :
 		{
-			 "min" : 14,
-			 "max" : 17
+			 "min" : 6,
+			 "max" : 12
 		},
-		"growth" : 1,
-		"hitPoints" : 50,
-		"speed" : 6,
+		"growth" : 9,
+		"hitPoints" : 40,
+		"speed" : 4,
 		"shots" : 24,
-		"aiValue" : 5931,
-		"fightValue" : 5272,
+		"aiValue" : 156,
+		"fightValue" : 130,
 		"graphics" :
 		{
 			"animation" : "cathedral/creatures/battle/zealot.def",
@@ -63,10 +63,7 @@
                },
 		"abilities" :
 		{
-        		"shooter" :
-			{
-				"type" : "SHOOTER"
-			},
+        		
 
 			"magicResistance" :
 			{
@@ -76,12 +73,12 @@
 			"castsAmount" :
 			{
 				"type" : "CASTS",
-				"val" : 2
+				"val" : 1
 			},
 			"enchant" :
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 2
+				"val" : 1
 			},
 			"spellpower" :
 			{
