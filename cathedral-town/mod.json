@@ -37,7 +37,7 @@
 	
 	"chinese" : {
 		"name" : "教廷",
-		"description" : "教廷",
+		"description" : "教廷是埃拉西亚小镇在遭遇亡灵进攻后留下的幸存者所建立的。兵种独特的设计和特有魔法也是教廷的魅力所在。为城堡种族的对立。",
 		"translations" : [
 			"translation/cathedral/chinese.json"
 		]
