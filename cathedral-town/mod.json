@@ -61,7 +61,7 @@
 	},
 	"russian" : {
 		"name" : "Собор",
-		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",	
+		"description" : "Новый город Собор, созданный в готическом стиле темного фэнтези.",	
 		"translations" : [
 			"translation/cathedral/russian.json"
 		]
