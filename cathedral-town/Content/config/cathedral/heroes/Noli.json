@@ -35,7 +35,7 @@
 			"biography" : "Nathaniel is well-known from his arrogance. He joint the church while he was defeated by necromancers in defending the board of Erathia. Now it is the time for revenge!",
 			"specialty" :
 			{
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Armorer Bonus(useless)",
 				"name" : "Armorer"
 			}

@@ -35,7 +35,7 @@
 			"biography" : "Von Fredrich was the mayor of the destructed city. He survived from the disaster, but his wife and three children were killed by undead creatures. He still confesses in the chapel everyday although the disaster has already past many years. He believes his sin and must be expiated by himself.",
 			"specialty" : 
 			{
-				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill.",
+				"description" : "Receives a 5% per level bonus to Resistance skill.",
 				"tooltip" : "Resistance(unused)",
 				"name" : "Resistance"
 			}

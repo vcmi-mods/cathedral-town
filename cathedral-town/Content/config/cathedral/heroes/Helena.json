@@ -35,7 +35,7 @@
 			"biography" : "Serving as a noble girl, Alexia never mentions about her family and old story. She is only known as a fighter. When other noble girls are learning etiquettes at home, she has already standed on the battlefield with armor. Maybe she pursues a better life, with battle and adventure.",
 			"specialty" :
 			{
-				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"description" : "Increases kingdom's income by 350 gold per day.",
 				"tooltip" : "Increases kingdom's income by 350 gold per day",
 				"name" : "+350 Gold"
 			}

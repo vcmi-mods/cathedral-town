@@ -35,7 +35,7 @@
 			"biography" : "Caballero is a gnoll and used to be a guard who belonged to King Tarossik. After a failure assassination he was banished to a board village. In this place he experienced invasion of undead and suffered from plague and disaster. Now he becomes a member of church and starts a new life.",
 			"specialty" :
 			{
-				"description" : "{Slayers}\r\n\r\nIncreases Speed of any Slayers and Executioners by 1 and their Attack and defense skills by 5% for every 2 levels (rounded up).",
+				"description" : "Increases Speed of any Slayers and Executioners by 1 and their Attack and defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Slayers Bonus",
 				"name" : "Slayers"
 			}

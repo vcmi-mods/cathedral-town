@@ -35,7 +35,7 @@
 			"biography" : "Gonzalez's father used to be a brave knight in Erathia. However, he never would like to live in his father's shadow. Finally he left Erathia since his father's death, but he still reserves the armor which was used by his father. Anyhow he believes he can get the bless from his father's courage.",
 			"specialty" :
 			{
-				"description" : "{Templars}\r\n\r\nIncreases Speed of any Templars and Dark Templars by 1 and their Attack and defense skills by 5% for every 6 levels (rounded up).",
+				"description" : "Increases Speed of any Templars and Dark Templars by 1 and their Attack and defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature bonus: Templars",
 				"name" : "Templars"
 			}

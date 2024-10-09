@@ -35,7 +35,7 @@
 			"biography" : "Palencia turned fanatic after the disaster, even if she is just a cleric apprentice before. She had seen her classmates are all dead in this disaster, so she decided to fight for herself. Now she became a high priest for the church.",
 			"specialty" :
 			{
-				"description" : "{Sextons}\r\n\r\nIncreases Speed of any Sextons and Cantors by 1 and their Attack and defense skills by 5% for every 5 levels (rounded up).",
+				"description" : "Increases Speed of any Sextons and Cantors by 1 and their Attack and defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Sextons",
 				"name" : "Sextons"
 			}

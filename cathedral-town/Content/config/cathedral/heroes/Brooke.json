@@ -35,7 +35,7 @@
 			"biography" : "Andreas quited his master and did not choose to be a squire any longer. He never suppose that he can become a real knight after finishing his squire experience. Now he started to fight for himself!",
 			"specialty" : 
 			{
-				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"description" : "Receives a 5% per level bonus to Offence skill.",
 				"tooltip" : "speciality : Offence",
 				"name" : "Offence"
 			}

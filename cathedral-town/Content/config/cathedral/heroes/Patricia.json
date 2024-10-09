@@ -36,7 +36,7 @@
 			"biography" : "Lucero is crazy about hunting harpies and medusas. She likes collecting their bones, skulls or some other 'souvenirs' from the bodies. Hunting is her hobby, even if no one will recruit her to do this.",
 			"specialty" :
 			{
-				"description" : "{Witch Hunters}\r\n\r\nIncreases Speed of any Witch Hunters and Evil Hunters by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "Increases Speed of any Witch Hunters and Evil Hunters by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Bonus: WitchHunter",
 				"name" : "Witch Hunters"
 			}

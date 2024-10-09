@@ -35,7 +35,7 @@
 			"biography" : "Franco J was the city's bishop and saved many people when disaster struck. But now he believes punishment is more effective than redemption. He believes that the disaster of that year could have been God's punishment for the blasphemers. Therefore, he is determined to protect the rebuilt Church and will no longer show mercy to anyone he deems sinful.",
 			"specialty" :
 			{
-				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"description" : "Receives a 5% per level bonus to Intelligence skill.",
 				"tooltip" : "Intelligence Bonus",
 				"name" : "Intelligence"
 			}
@@ -48,7 +48,7 @@
 			"bonuses" : {
 				"resistance" : {
 					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_PER_KNOWLEDGE",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"updater" : "TIMES_HERO_LEVEL"
