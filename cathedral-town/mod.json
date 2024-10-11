@@ -2,15 +2,16 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.1.6",
+	"version" : "1.1.7",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.0"
 	},	
 	"changelog" :
 	{
+		"1.1.5"   : [ "Fixed Franco J specialty", "Fixed commander's Magic Resistance bonus" ],
 		"1.1.6"   : [ "Updated russian translation", "Improved horde graphics by Fabrice-TIERCELIN" ],
 		"1.1.5"   : [ "Russian translation by Anton Sergeew" ],
 		"1.1.4"   : [ "Added the creatures' stackExp, fixed the commander and other bugs" ],
