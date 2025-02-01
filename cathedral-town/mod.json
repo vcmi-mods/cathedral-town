@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.3.1",
+	"version" : "1.3.2",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.3.2"   : [ "Spanish translation by danielcshn." ],
 		"1.3.1"   : [ "Czech translation by George King." ],
 		"1.3.0"   : [ "Fixed town screen and some map objects by Ben." ],
 		"1.2.0"   : [ "Fixed Polish translation integrity with original game version by Yoshiro." ],
@@ -42,7 +43,6 @@
 			"translation/cathedral/french.json"
 		]
 	},
-	
 	"czech" : {
 		"name" : "Katedrála",
 		"description" : "Katedrála je temné a fanatické město, které se zrodilo jako odpověď na tragické události a katastrofy v Erathii. Hrdinové jsou poháněni touhou po pomstě a očistě, věří v tvrdé tresty a oddanost božské spravedlnosti.",
@@ -50,7 +50,6 @@
 			"translation/cathedral/czech.json"
 		]
 	},
-
 	"chinese" : {
 		"name" : "教廷",
 		"description" : "教廷是埃拉西亚小镇在遭遇亡灵进攻后留下的幸存者所建立的。兵种独特的设计和特有魔法也是教廷的魅力所在。为城堡种族的对立。",
@@ -58,7 +57,6 @@
 			"translation/cathedral/chinese.json"
 		]
 	},
-	
 	"german" : {
 		"name" : "Kathedrale",
 		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",	
@@ -66,10 +64,9 @@
 			"translation/cathedral/german.json"
 		]
 	},
-		
 	"polish" : {
 		"name" : "Katedra",
-		"description" : "Katedra to mod odtworzony przez Bena Yana",	
+		"description" : "Katedra to mod odtworzony przez Ben Yana",	
 		"translations" : [
 			"translation/cathedral/polish.json"
 		]
@@ -80,7 +77,15 @@
 		"translations" : [
 			"translation/cathedral/russian.json"
 		]
-	},	
+	},
+	"spanish" : {
+		"name" : "Catedral",
+		"description" : "La Catedral es un mod recreado por Ben Yan",
+		"translations" : [
+			"translation/cathedral/spanish.json"
+		]
+	},
+
 	"factions" :
 	[
 		"config/cathedral/town/buildings.json",
