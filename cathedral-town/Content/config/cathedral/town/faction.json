@@ -123,7 +123,7 @@
 			"townBackground": "cathedral/town-screen/TBCTBACK.bmp",
 			"guildWindow": "cathedral/town-screen/TPMAGECT.bmp",
 			"buildingsIcons": "cathedral/town-hall.def",
-			"hallBackground": "TPTHBKRM",
+			"hallBackground": "TPTHBKTW",
             "primaryResource" : "sulfur",
 			"hallSlots":
 			[
