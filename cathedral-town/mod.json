@@ -2,7 +2,7 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author": "Ben Yan",
-	"version" : "1.3.3",
+	"version" : "1.3.4",
 	"contact": "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.3.4"   : [ "Minor tweak" ],
 		"1.3.3"   : [ "Updated hero's battle appearance" ],
 		"1.3.2"   : [ "Spanish translation by danielcshn." ],
 		"1.3.1"   : [ "Czech translation by George King." ],
