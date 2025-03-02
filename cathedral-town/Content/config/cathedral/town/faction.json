@@ -123,8 +123,8 @@
 			"townBackground": "cathedral/town-screen/TBCTBACK.bmp",
 			"guildWindow": "cathedral/town-screen/TPMAGECT.bmp",
 			"buildingsIcons": "cathedral/town-hall.def",
-			"hallBackground": "TPTHBKRM",
-            "primaryResource" : "sulfur",
+			"hallBackground" : "cathedral/town-screen/hallBackground.bmp",
+            		"primaryResource" : "sulfur",
 			"hallSlots":
 			[
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
