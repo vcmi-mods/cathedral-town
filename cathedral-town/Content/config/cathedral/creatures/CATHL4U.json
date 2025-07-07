@@ -51,9 +51,12 @@
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"fearless":
+			"fearless" :
 			{
-				"type" : "FEARLESS", 		
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
  		      "immuneToMind" : 
 			{

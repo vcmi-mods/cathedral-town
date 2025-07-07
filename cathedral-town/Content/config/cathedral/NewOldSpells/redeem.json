@@ -30,6 +30,8 @@
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.REBIRTH" : "absolute",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "normal"
@@ -55,15 +57,12 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
+				},
 				"description": "",
 	 
 				"cost": 0,
@@ -79,68 +78,24 @@
 						"val" : 100,
 						"valueType" : "BASE_NUMBER"
 					}
-				}
+				}				
+			},
+			"none":
+			{
+
 			},
 			"basic":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"redeem" : {
-						"type" : "STACK_HEALTH",
-						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE"
-						},
-					"redeem2" :{
-						"type" : "HP_REGENERATION",
-						"val" : 100,
-						"valueType" : "BASE_NUMBER"
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"redeem" : {
-						"type" : "STACK_HEALTH",
-						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE"
-						},
-					"redeem2" :{
-						"type" : "HP_REGENERATION",
-						"val" : 100,
-						"valueType" : "BASE_NUMBER"
-					}
-				}
+
 			},
 			"expert":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"redeem" : {
-						"type" : "STACK_HEALTH",
-						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE"
-					},
-					"redeem2" :{
-						"type" : "HP_REGENERATION",
-						"val" : 100,
-						"valueType" : "BASE_NUMBER"
-					}
-				}
+
 			}
 		}
-		}
 	}
+}

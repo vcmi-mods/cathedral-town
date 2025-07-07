@@ -46,126 +46,54 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stackHealth" : {
+						"val" : -20,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -5,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"duration" : "N_TURNS"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"val" : -5,
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -20,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -5,
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -20,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -5,
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -20,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -5,
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"expert":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -20,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -5,
-						"duration" : "N_TURNS"
-					}
-				}
+
 			}
 		}
-	}
- 
+	} 
 }

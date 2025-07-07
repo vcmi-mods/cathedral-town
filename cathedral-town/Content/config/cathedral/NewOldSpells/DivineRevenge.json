@@ -31,8 +31,7 @@
 			"allOf" : {},
 			"anyOf" : {},			
 			"noneOf" : {
-				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
-
+//				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
 			}
 	}, 
  
@@ -60,58 +59,39 @@
 		{
 			"base":
 			{
-				"aiValue": 15,
+//				"aiValue": 15,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				
+				"cost": 30,
+				"power": 50,
+	 
+				"effects":
+				{
+					"defence" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"duration" : "STACK_GETS_TURN"
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"val" : -2,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n",
-	 
-				"cost": 30,
-				"power": 50,
-	 
-				"effects":
-				{
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "STACK_GETS_TURN"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -2,
-						"duration" : "STACK_GETS_TURN"
-					}
-				}
+				"description": "{Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n"
 			},
 			"basic":
 			{
-				"description": "{Basic Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n",
-	 
-				"cost": 30,
-				"power": 50,
-	 
-				"effects":
-				{
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "STACK_GETS_TURN"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -2,
-						"duration" : "STACK_GETS_TURN"
-					}
-				}
+				"description": "{Basic Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n"
 			},
 			"advanced":
 			{
@@ -123,16 +103,10 @@
 				"effects":
 				{
 					"defence" : {
-						"val" : -3,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "STACK_GETS_TURN"
+						"val" : -3
 					},
 					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -3,
-						"duration" : "STACK_GETS_TURN"
+						"val" : -3
 					}
 				}
 			},
@@ -146,16 +120,10 @@
 				"effects":
 				{
 					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "STACK_GETS_TURN"
+						"val" : -5
 					},
 					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -5,
-						"duration" : "STACK_GETS_TURN"
+						"val" : -5
 					}
 				}
 			}

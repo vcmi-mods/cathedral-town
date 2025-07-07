@@ -30,6 +30,8 @@
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "normal"
 			}
@@ -54,102 +56,48 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"description": "",
+	 
+				"cost": 0,
+	 
+				"effects":
+				{
+					"stackHealth" : {
+						"val" : -10,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -10,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -10,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -10,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"expert":
 			{
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"stackHealth" : {
-						"val" : -10,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
-					}
-				}
+
 			}
 		}
-	}
- 
+	} 
 }

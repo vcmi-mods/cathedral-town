@@ -68,10 +68,14 @@
 				"val" : 10,
 				"addInfo" : [1, 2]
 			},
-			"fearless":
+			"fearless" :
 			{
-				"type" : "FEARLESS", 		
-			}	
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+				
+			}
 		},
 		"stackExperience" :
 		[

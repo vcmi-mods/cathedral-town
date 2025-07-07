@@ -30,6 +30,8 @@
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "normal"
 			}
@@ -54,15 +56,12 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
+				},
 				"description": "{Prayer}\r\n\r\n empty",
 	 
 				"cost": 0,
@@ -70,109 +69,72 @@
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"val" : 2,
 						"duration" : "PERMANENT"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 2,
 						"duration" : "PERMANENT"
 					},
 					"stacksSpeed" : {
-						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : 2,
 						"duration" : "PERMANENT"
 					}
-				}
+				}				
+			},
+			"none":
+			{
+
 			},
 			"basic":
 			{
-				"description": "{Prayer}\r\n\r\n empty",
-	 
-				"cost": 0,
-	 
 				"effects":
 				{
 					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					},
 					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					},
 					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					}
 				}
 			},
 			"advanced":
 			{
-				"description": "{Prayer}\r\n\r\n empty",
-	 
-				"cost": 0,
-	 
 				"effects":
 				{
 					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					},
 					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					},
 					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					}
 				}
 			},
 			"expert":
 			{
-				"description": "{Prayer}\r\n\r\n empty",
-	 
-				"cost": 0,
-	 
 				"effects":
 				{
 					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					},
 					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					},
 					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 4,
-						"duration" : "PERMANENT"
+						"val" : 4
 					}
 				}
 			}
 		}
 	}
- 
 }

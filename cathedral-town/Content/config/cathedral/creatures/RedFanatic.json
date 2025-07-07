@@ -12,6 +12,9 @@
 		"special": true,
 		"attack" : 5,
 		"defense" : 5,
+		"cost" : {
+			"gold" : 2000
+		},
 		"damage" :
 		{
 			 "min" : 6,

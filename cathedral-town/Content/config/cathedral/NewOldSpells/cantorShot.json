@@ -36,7 +36,7 @@
 				"bonus.UNDEAD" : "absolute"
 			},
 			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+//				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
 			}
 		},
 		"graphics":
@@ -52,40 +52,25 @@
 				"battleEffects" : {
 					"directDamage" : {"type":"core:damage"}
 				},
-				"targetModifier":{"smart":true}
+				"targetModifier":{"smart":true},
+				"description": "",	 
+				"cost": 0,
+//				"aiValue": 12,
+				"power": 10				
 			},
 		"none":
 			{
-				"description": "",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
+
 			},
-			"basic":
+		"basic":
 			{
-				"description": "",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			},
-			"advanced":
+		"advanced":
 			{
-				"description": "",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			},
-			"expert":
+		"expert":
 			{
-				"description": "",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			}
-			}
+		}
 	}
 }
