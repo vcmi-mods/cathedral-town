@@ -1,25 +1,33 @@
 {
-	"susan" :
-	{
+	"susan" : {
 		"class" : "cthbishop",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cathedral/heroes/susan/spec-small.bmp",
 			"specialtyLarge" : "cathedral/heroes/susan/spec-large.bmp",
 			"large" : "cathedral/heroes/susan/portrait-large.bmp",
 			"small" : "cathedral/heroes/susan/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
-			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
-			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "cthAttackDog",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "cthSlayer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "cthWitchHunter",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "waterMagic"
@@ -29,19 +37,16 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Camellia",
 			"biography" : "Camellia's name comes from the blooming flowers in the garden. She grew up in a big manor which belonged to her family, but finally her life was destructed by disaster. Now serving as a survivor, she executes punishment for the church. She supposes beautiful garden will be reappeared after all villains are punished.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Frost Ring with damage increased by 3% for every N hero levels, where N is the level of the target creature.",
 				"tooltip" : "Spell Bonus: Frost Ring",
 				"name" : "Frost Ring"
 			}
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"frostRing"
 		],
 		"specialty" : {
@@ -53,6 +58,6 @@
 					"val" : 3
 				}
 			}
-		}				
+		}
 	}
 }

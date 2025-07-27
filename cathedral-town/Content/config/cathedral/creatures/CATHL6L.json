@@ -1,135 +1,203 @@
 {
-	"cthTemplar":
-	{
-		"name" :
-		{
+	"cthTemplar" : {
+		"name" : {
 			"plural" : "Templars",
 			"singular" : "Templar"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
 		"faction" : "cathedral",
-		"upgrades": ["cthPaladin"],
+		"upgrades" : [
+			"cthPaladin"
+		],
 		"level" : 6,
-		"attack" : 16,	
+		"attack" : 16,
 		"defense" : 20,
-		"damage" :
-		{
-			 "min" : 15,
-			 "max" : 25
+		"damage" : {
+			"min" : 15,
+			"max" : 25
 		},
 		"growth" : 2,
 		"hitPoints" : 70,
 		"speed" : 6,
 		"fightValue" : 1133,
 		"aiValue" : 1260,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 900
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cathedral/creatures/battle/CATHL6L.def",
 			"map" : "cathedral/creatures/map/AVWCATH11.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT011S.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/CRCT011.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "CRUSATTK.wav",
-			"defend": "CRUSDFND.wav",
-			"killed": "CRUSKILL.wav",
-			"move": "CRUSMOVE.wav",
-			"wince": "CRUSWNCE.wav"
+		"sound" : {
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "CRUSWNCE.wav"
 		},
-		"abilities" :
-		{
-			
-             "enchanted" : 
-			{
+		"abilities" : {
+			"enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "prayer",
 				"val" : 2
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "prayer"
 				},
-				"values" : [ 2, 2, 2, 2, 2, 2, 2, 3, 3, 3 ]	
+				"values" : [
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}
 }
-
-

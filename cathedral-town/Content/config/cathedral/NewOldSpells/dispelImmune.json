@@ -1,9 +1,7 @@
 {
 	"core:dispelHelpful" : {
-		
-		"graphics":
-		{
-			"iconImmune":"catheSpells/harmDisImmune.bmp"
+		"graphics" : {
+			"iconImmune" : "catheSpells/harmDisImmune.bmp"
 		}
 	}
 }

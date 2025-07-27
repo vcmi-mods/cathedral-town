@@ -1,32 +1,34 @@
 {
-	"temPrayer":
-	{
-		"type": "ability", 
-		"name": "Prayer",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": true
+	"temPrayer" : {
+		"type" : "ability",
+		"name" : "Prayer",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"affect":["catheSpells/Scratch.def"]
+		"animation" : {
+			"affect" : [
+				"catheSpells/Scratch.def"
+			]
 		},
- 
-		"flags" : {"positive": true, "nonMagical": true},
- 
+
+		"flags" : {
+			"positive" : true,
+			"nonMagical" : true
+		},
+
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
@@ -36,36 +38,31 @@
 				"bonus.UNDEAD" : "normal"
 			}
 		},
- 
-		"graphics":
-		{
-			"iconBook": "catheSpells/Scratch0.bmp",
-			"iconScroll": "catheSpells/Scratch1.bmp",
-			"iconScenarioBonus": "catheSpells/Scratch2.bmp",
-			"iconEffect": "catheSpells/Temprayer.bmp"
+
+		"graphics" : {
+			"iconBook" : "catheSpells/Scratch0.bmp",
+			"iconScroll" : "catheSpells/Scratch1.bmp",
+			"iconScenarioBonus" : "catheSpells/Scratch2.bmp",
+			"iconEffect" : "catheSpells/Temprayer.bmp"
 		},
 
-		"sounds":
-		{
-			"cast":"catheSpells/SCRATCH.wav"
+		"sounds" : {
+			"cast" : "catheSpells/SCRATCH.wav"
 		},
 		"targetType" : "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"power": 10,
-//				"aiValue": 12,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				//				"aiValue": 12,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"description": "{Prayer}\r\n\r\n empty",
-	 
-				"cost": 0,
-	 
+				"description" : "{Prayer}\r\n\r\n empty",
+
+				"cost" : 0,
+
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
@@ -84,16 +81,11 @@
 						"val" : 2,
 						"duration" : "PERMANENT"
 					}
-				}				
+				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-				"effects":
-				{
+			"none" : {},
+			"basic" : {
+				"effects" : {
 					"attack" : {
 						"val" : 4
 					},
@@ -105,10 +97,8 @@
 					}
 				}
 			},
-			"advanced":
-			{
-				"effects":
-				{
+			"advanced" : {
+				"effects" : {
 					"attack" : {
 						"val" : 4
 					},
@@ -120,10 +110,8 @@
 					}
 				}
 			},
-			"expert":
-			{
-				"effects":
-				{
+			"expert" : {
+				"effects" : {
 					"attack" : {
 						"val" : 4
 					},

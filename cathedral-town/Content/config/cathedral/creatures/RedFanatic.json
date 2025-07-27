@@ -1,24 +1,21 @@
 {
-	"saRedFanatic":
-	{
-		"name" :
-		{
+	"saRedFanatic" : {
+		"name" : {
 			"plural" : "Red Fanatics",
 			"singular" : "Red Fanatic"
 		},
 		"faction" : "cathedral",
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 0,
-		"special": true,
+		"special" : true,
 		"attack" : 5,
 		"defense" : 5,
 		"cost" : {
 			"gold" : 2000
 		},
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 12
+		"damage" : {
+			"min" : 6,
+			"max" : 12
 		},
 		"growth" : 9,
 		"hitPoints" : 40,
@@ -26,25 +23,21 @@
 		"shots" : 24,
 		"aiValue" : 156,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cathedral/creatures/battle/zealot.def",
 			"map" : "cathedral/creatures/map/zealot.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/zealot.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/zealot.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -52,52 +45,55 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-		},	
-		"sound" :
-		{
-			"attack": "ZELTATTK.wav",
-			"defend": "ZELTDFND.wav",
-			"killed": "ZELTKILL.wav",
-			"move": "ZELTMOVE.wav",
-			"shoot": "ZELTSHOT.wav",
-			"wince": "ZELTWNCE.wav"
-               },
-		"abilities" :
-		{
-        		
-
-			"magicResistance" :
-			{
+		},
+		"sound" : {
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"shoot" : "ZELTSHOT.wav",
+			"wince" : "ZELTWNCE.wav"
+		},
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "prayer",
 				"val" : 3
-            },
-            "noMind":
-            {
-               "type": "MIND_IMMUNITY"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
 			}
 		}
 	}

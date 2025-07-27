@@ -1,13 +1,11 @@
 {
 	"core:prayer" : {
-		
-		"level": 4,
-		"graphics":
-		{
-			"iconImmune":"catheSpells/prayerImmune.bmp",
+		"level" : 4,
+		"graphics" : {
+			"iconImmune" : "catheSpells/prayerImmune.bmp"
 		},
 		"counters" : {
-			"confessionSong":true
+			"confessionSong" : true
 		}
 	}
 }

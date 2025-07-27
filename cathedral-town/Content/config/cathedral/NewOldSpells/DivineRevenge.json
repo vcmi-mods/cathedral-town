@@ -1,76 +1,70 @@
 {
-	"divineRevenge":
-	{
-		"type": "combat", 
-		"name": "Divine Execution",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": true,
-			"water": false
+	"divineRevenge" : {
+		"type" : "combat",
+		"name" : "Divine Execution",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
 		},
-		"level": 5,
-		"power": 70,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"cathedral": 60,
-			"tower": 0,
-			"necropolis": 0,
-			"conflux" : 0,
+		"level" : 5,
+		"power" : 70,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"cathedral" : 60,
+			"tower" : 0,
+			"necropolis" : 0,
+			"conflux" : 0
 		},
- 
-		"flags" :
-		{
-			"damage": true,
-			"offensive": true,
-			"negative": true
+
+		"flags" : {
+			"damage" : true,
+			"offensive" : true,
+			"negative" : true
 		},
 		"targetCondition" : {
 			"allOf" : {},
-			"anyOf" : {},			
+			"anyOf" : {},
 			"noneOf" : {
-//				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
+				//				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
 			}
-	}, 
- 
-		"graphics":
-		{
-			"iconBook": "catheSpells/dFreezeBook.bmp",
-			"iconScroll": "catheSpells/dFreezeScroll.bmp",
-			"iconScenarioBonus": "catheSpells/dFreezeScenario.bmp",
-			"iconEffect": "catheSpells/dFreezeEffect.bmp",
-			"iconImmune": "catheSpells/dFreezeImmune.bmp"
-		},
-		
-		"animation":
-		{
-			"affect":[{"defName":"catheSpells/eSpell.def","verticalPosition":"bottom"}]
 		},
 
-		"sounds":
-		{
-			"cast":"PRAYER"
+		"graphics" : {
+			"iconBook" : "catheSpells/dFreezeBook.bmp",
+			"iconScroll" : "catheSpells/dFreezeScroll.bmp",
+			"iconScenarioBonus" : "catheSpells/dFreezeScenario.bmp",
+			"iconEffect" : "catheSpells/dFreezeEffect.bmp",
+			"iconImmune" : "catheSpells/dFreezeImmune.bmp"
 		},
-		"targetType": "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-//				"aiValue": 15,
-				"range": "0",
-				"targetModifier":
+
+		"animation" : {
+			"affect" : [
 				{
-					"smart": true
+					"defName" : "catheSpells/eSpell.def",
+					"verticalPosition" : "bottom"
+				}
+			]
+		},
+
+		"sounds" : {
+			"cast" : "PRAYER"
+		},
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				//				"aiValue": 15,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				
-				"cost": 30,
-				"power": 50,
-	 
-				"effects":
-				{
+
+				"cost" : 30,
+				"power" : 50,
+
+				"effects" : {
 					"defence" : {
 						"val" : -2,
 						"type" : "PRIMARY_SKILL",
@@ -83,25 +77,21 @@
 						"val" : -2,
 						"duration" : "STACK_GETS_TURN"
 					}
-				}				
+				}
 			},
-			"none":
-			{
-				"description": "{Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n"
+			"none" : {
+				"description" : "{Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n"
 			},
-			"basic":
-			{
-				"description": "{Basic Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n"
+			"basic" : {
+				"description" : "{Basic Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 2.\n"
 			},
-			"advanced":
-			{
-				"description": "{Advanced Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 3.\n",
-	 
-				"cost": 25,
-				"power": 200,
-	 
-				"effects":
-				{
+			"advanced" : {
+				"description" : "{Advanced Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 3.\n",
+
+				"cost" : 25,
+				"power" : 200,
+
+				"effects" : {
 					"defence" : {
 						"val" : -3
 					},
@@ -110,15 +100,13 @@
 					}
 				}
 			},
-			"expert":
-			{
-				"description": "{Expert Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 5.\n",
-	 
-				"cost": 25,
-				"power": 400,
-	 
-				"effects":
-				{
+			"expert" : {
+				"description" : "{Expert Divine Execution}\n\nGenerate a large amount of damages to enemy's target with a reduction in offence and defence by 5.\n",
+
+				"cost" : 25,
+				"power" : 400,
+
+				"effects" : {
 					"defence" : {
 						"val" : -5
 					},
@@ -129,5 +117,4 @@
 			}
 		}
 	}
- 
 }

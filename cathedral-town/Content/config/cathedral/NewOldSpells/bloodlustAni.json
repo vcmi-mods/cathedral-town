@@ -1,9 +1,13 @@
 {
 	"core:bloodlust" : {
-		
-		"level": 1,
-		"animation":{
-			"affect":[{"defName":"catheSpells/bloodlust.def","verticalPosition":"bottom"}]
+		"level" : 1,
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "catheSpells/bloodlust.def",
+					"verticalPosition" : "bottom"
+				}
+			]
 		}
 	}
 }

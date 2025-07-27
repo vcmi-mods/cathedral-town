@@ -1,24 +1,32 @@
 {
-	"amanda" :
-	{
+	"amanda" : {
 		"class" : "cthbishop",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cathedral/heroes/amanda/spec-small.bmp",
 			"specialtyLarge" : "cathedral/heroes/amanda/spec-large.bmp",
 			"large" : "cathedral/heroes/amanda/portrait-large.png",
 			"small" : "cathedral/heroes/amanda/portrait-small.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
-			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
-			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "cthAttackDog",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "cthSlayer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "cthWitchHunter",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -28,35 +36,30 @@
 				"skill" : "leadership"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Amanda",
 			"biography" : "Similar as Gabrielle, Amanda had seen her parents and sisters' death in the disaster at a very young age. She was rescued by priests from the church. Now she also became a revenger for necromancers.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "All enemy creatures receive -1 Morale.",
 				"tooltip" : "Bonus: Negative Morale",
 				"name" : "Negative Morale"
 			}
 		},
-		"spellbook" :
-		[
-		       "curse"
+		"spellbook" : [
+			"curse"
 		],
 		"specialty" : {
 			"bonuses" : {
 				"badLuck" : {
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [ "OPPOSITE_SIDE" ],
-					"type" : "MORALE", 
-					"val" : -1 
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					],
+					"type" : "MORALE",
+					"val" : -1
 				}
 			}
-		}	
+		}
 	}
 }
-
-
-
-

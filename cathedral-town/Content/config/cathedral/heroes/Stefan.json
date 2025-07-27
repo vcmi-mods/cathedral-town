@@ -1,25 +1,33 @@
 {
-	"stefan" :
-	{
+	"stefan" : {
 		"class" : "cthbishop",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cathedral/heroes/stefan/spec-small.bmp",
 			"specialtyLarge" : "cathedral/heroes/stefan/spec-large.bmp",
 			"large" : "cathedral/heroes/stefan/portrait-large.bmp",
 			"small" : "cathedral/heroes/stefan/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
-			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
-			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "cthAttackDog",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "cthSlayer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "cthWitchHunter",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "intelligence"
@@ -29,23 +37,20 @@
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Franco J",
 			"biography" : "Franco J was the city's bishop and saved many people when disaster struck. But now he believes punishment is more effective than redemption. He believes that the disaster of that year could have been God's punishment for the blasphemers. Therefore, he is determined to protect the rebuilt Church and will no longer show mercy to anyone he deems sinful.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill.",
 				"tooltip" : "Secondary Skill Bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"stoneSkin"
 		],
 		"specialty" : {
 			"secondary" : "intelligence"
-		}	
+		}
 	}
 }

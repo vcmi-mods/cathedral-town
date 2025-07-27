@@ -1,53 +1,58 @@
 {
-	"salvirana" :
-	{
+	"salvirana" : {
 		"class" : "cthbishop",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "cathedral/heroes/salvirana/spec-small.bmp",
 			"specialtyLarge" : "cathedral/heroes/salvirana/spec-large.bmp",
 			"large" : "cathedral/heroes/salvirana/portrait-large.bmp",
 			"small" : "cathedral/heroes/salvirana/portrait-small.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "cthAttackDog", "min" : 9, "max" : 15 },
-			{ "creature" : "cthSlayer", "min" :  6, "max" :  9 },
-			{ "creature" : "cthWitchHunter", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "cthAttackDog",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "cthSlayer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "cthWitchHunter",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Farrebique",
 			"biography" : "Farrebique used to be an angel but his wings were burned from this disaster. He cannot fly any more so he pretended himself as a cleric. Although losing the flying ability, he has never supposed he is fallen. Yes, simply because he dreams of light.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Health of allied creatures by +10%.",
 				"tooltip" : "Creature Bonus: Health",
 				"name" : "Health"
 			}
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"cure"
 		],
 		"specialty" : {
 			"bonuses" : {
 				"health" : {
 					"type" : "STACK_HEALTH",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_BASE"
+					"val" : 10,
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
-		}			
+		}
 	}
 }

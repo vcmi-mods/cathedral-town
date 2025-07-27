@@ -209,11 +209,11 @@
 	"spell.cathedral-town.redeem.name" : "Canjear",
 	"spell.cathedral-town.scratch.name" : "Rascar",
 	"spell.cathedral-town.temPrayer.name" : "Luz celestial",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name": "Colina",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name": "Lugar de Ejecución",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name": "Gremio de Cazadores",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name": "Vertedero",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name": "Auditorio",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name": "Caballeros Templarios",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name": "Santuario maldito"
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name" : "Colina",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name" : "Lugar de Ejecución",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name" : "Gremio de Cazadores",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name" : "Vertedero",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name" : "Auditorio",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name" : "Caballeros Templarios",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name" : "Santuario maldito"
 }

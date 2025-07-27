@@ -1,55 +1,46 @@
 {
-	"cthCantor":
-	{
-		"name" :
-		{
+	"cthCantor" : {
+		"name" : {
 			"plural" : "Cantors",
 			"singular" : "Cantor"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 8
 		},
 		"faction" : "cathedral",
-        "level" : 5,
+		"level" : 5,
 		"attack" : 12,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 11,
-			 "max" : 11
+		"damage" : {
+			"min" : 11,
+			"max" : 11
 		},
 		"growth" : 3,
 		"hitPoints" : 40,
 		"speed" : 6,
 		"shots" : 16,
-		"horde": 2,
+		"horde" : 2,
 		"fightValue" : 1063,
 		"aiValue" : 1182,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cathedral/creatures/battle/CATHL5U.def",
 			"map" : "cathedral/creatures/map/AVWCATH10.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT010S.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/CRCT010.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-		"missile" :
-			{
-				"projectile": "cathedral/creatures/projectile/CANTORX.DEF",
+			"missile" : {
+				"projectile" : "cathedral/creatures/projectile/CANTORX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -57,105 +48,187 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "ZELTATTK.wav",
-			"defend": "ZELTDFND.wav",
-			"killed": "ZELTKILL.wav",
-			"move": "ZELTMOVE.wav",
-			"shoot": "BLESS.wav",
-			"wince": "ZELTWNCE.wav"
-         },
-		"abilities" :
-		{
-			
-		   "canShoot" :
-			{
+		"sound" : {
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"shoot" : "BLESS.wav",
+			"wince" : "ZELTWNCE.wav"
+		},
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-		    "immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"cantorShot" :
-			{
+			"cantorShot" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "cantorShot"
 			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type" : "HP_REGENERATION",
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					50,
+					50,
+					50,
+					50,
+					50,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION"
 				},
-				"values" : [ 3, 6, 9, 12, 15, 21, 24, 27, 30, 33]
+				"values" : [
+					3,
+					6,
+					9,
+					12,
+					15,
+					21,
+					24,
+					27,
+					30,
+					33
+				]
 			}
-		]	
+		]
 	}
 }
-
-

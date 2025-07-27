@@ -1,140 +1,189 @@
 {
-	"cthExecutioner":
-	{
-		"name" :
-		{
+	"cthExecutioner" : {
+		"name" : {
 			"plural" : "Executioners",
 			"singular" : "Executioner"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "cathedral",
 		"level" : 2,
 		"attack" : 6,
 		"defense" : 6,
-		"horde": 6,
-		"damage" :
-		{
-			 "min" : 3,
-			 "max" : 4
+		"horde" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
 		},
 		"growth" : 8,
 		"hitPoints" : 20,
 		"speed" : 5,
 		"fightValue" : 433,
 		"aiValue" : 460,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cathedral/creatures/battle/CATHL2U.def",
 			"map" : "cathedral/creatures/map/AVWCATH04.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT004S.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/CRCT004.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
-				}
-			},
-		"sound" :
-		{
-			"attack": "MINKDFND.wav",
-			"defend": "LCRSDFND.wav",
-			"killed": "ROGUKILL.wav",
-			"move": "ROGUMOVE.wav",
-			"wince": "ROGUWNCE.wav"
-         },
-		"abilities" :
-		{
-			
-			"reduceDefence" :
-			{
+			}
+		},
+		"sound" : {
+			"attack" : "MINKDFND.wav",
+			"defend" : "LCRSDFND.wav",
+			"killed" : "ROGUKILL.wav",
+			"move" : "ROGUMOVE.wav",
+			"wince" : "ROGUWNCE.wav"
+		},
+		"abilities" : {
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 10
 			},
-		"castDisease" : 
-			{
+			"castDisease" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "scratch",
 				"val" : 20,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" : { "type" : "DOUBLE_DAMAGE_CHANCE" },
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}			
-		]	
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

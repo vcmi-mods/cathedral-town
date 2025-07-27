@@ -209,12 +209,11 @@
 	"spell.cathedral-town.redeem.name" : "Выкуп",
 	"spell.cathedral-town.scratch.name" : "Царапины",
 	"spell.cathedral-town.temPrayer.name" : "Небесный свет",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name": "Курган",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name": "Гильотина",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name": "Гильдия Охотников",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name": "Свалка",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name": "Школа инквизиции",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name": "Орден Тамплиеров",
-    "mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name": "Проклятое святилище"
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel1.name" : "Курган",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel2.name" : "Гильотина",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel3.name" : "Гильдия Охотников",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel4.name" : "Свалка",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel5.name" : "Школа инквизиции",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel6.name" : "Орден Тамплиеров",
+	"mapObject.cathedral-town.creatureGeneratorCommon.cathedralLevel7.name" : "Проклятое святилище"
 }
-

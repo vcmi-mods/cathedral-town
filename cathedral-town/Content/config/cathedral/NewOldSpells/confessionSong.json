@@ -1,52 +1,50 @@
 {
 	"confessionSong" : {
-		"type": "combat",
-		"targetType" : "CREATURE", 
-		"name": "Confession Song",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": true,
-			"water": false
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Confession Song",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
 		},
-		"level": 4,
-		"power": 20,
-		
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"level" : 4,
+		"power" : 20,
 
-		"cathedral" : 50,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"cathedral" : 50
 		},
-		
-		"animation":{
-			"affect":[{ "defName":"catheSpells/Csong.def"}]
+
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "catheSpells/Csong.def"
+				}
+			]
 		},
- 
-		"graphics":
-		{
-			"iconBook": "catheSpells/csongBook.bmp",
-			"iconScroll": "catheSpells/csongScroll.bmp",
-			"iconScenarioBonus": "catheSpells/csongScenario.bmp",
-			"iconEffect": "catheSpells/csongEffect.bmp"
+
+		"graphics" : {
+			"iconBook" : "catheSpells/csongBook.bmp",
+			"iconScroll" : "catheSpells/csongScroll.bmp",
+			"iconScenarioBonus" : "catheSpells/csongScenario.bmp",
+			"iconEffect" : "catheSpells/csongEffect.bmp"
 		},
-		
-		"sounds": {
-			"cast": "DRGNSLAY"
+
+		"sounds" : {
+			"cast" : "DRGNSLAY"
 		},
 		"levels" : {
-			"base":
-			{
-//				"aiValue": 15,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+			"base" : {
+				//				"aiValue": 15,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"cost": 16,
-				"power": 20,
-			    "description": "{Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.",				
+				"cost" : 16,
+				"power" : 20,
+				"description" : "{Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.",
 
 				"effects" : {
 					"attack" : {
@@ -66,20 +64,14 @@
 						"val" : -2,
 						"duration" : "N_TURNS"
 					}
-				}				
+				}
 			},
-			"none":
-			{
-
+			"none" : {},
+			"basic" : {
+				"description" : "{Basic Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit."
 			},
-			"basic":
-			{
-			    "description": "{Basic Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit."
-
-			},
-			"advanced":
-			{
-				"description": "{Advanced Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.\n\nEffect is twice that of Basic Confession Song.",
+			"advanced" : {
+				"description" : "{Advanced Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.\n\nEffect is twice that of Basic Confession Song.",
 				"effects" : {
 					"attack" : {
 						"val" : -4
@@ -92,10 +84,9 @@
 					}
 				}
 			},
-			"expert":
-			{
-			    "cost": 14,
-				"description": "{Expert Confession Song}\n\nReduce the attack strength, defense strength and speed of all enemy unit.\n\nEffect is twice that of Basic Confession Song.",
+			"expert" : {
+				"cost" : 14,
+				"description" : "{Expert Confession Song}\n\nReduce the attack strength, defense strength and speed of all enemy unit.\n\nEffect is twice that of Basic Confession Song.",
 				"range" : "X",
 				"effects" : {
 					"attack" : {
@@ -111,10 +102,10 @@
 			}
 		},
 		"counters" : {
-			"spell.prayer":true
+			"spell.prayer" : true
 		},
 		"flags" : {
-			"negative": true
-			}
+			"negative" : true
 		}
+	}
 }

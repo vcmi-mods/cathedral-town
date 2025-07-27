@@ -1,125 +1,150 @@
 {
-	"cthPunisher":
-	{
-		"name" :
-		{
+	"cthPunisher" : {
+		"name" : {
 			"plural" : "Punishers",
 			"singular" : "Punisher"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 4
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "cathedral",
-		"upgrades": ["cthChasteners"],
+		"upgrades" : [
+			"cthChasteners"
+		],
 		"level" : 7,
 		"attack" : 20,
 		"defense" : 15,
-		"damage" :
-		{
-			 "min" : 35,
-			 "max" : 55
+		"damage" : {
+			"min" : 35,
+			"max" : 55
 		},
 		"growth" : 1,
 		"hitPoints" : 150,
 		"speed" : 14,
 		"fightValue" : 4133,
 		"aiValue" : 5260,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2800,
 			"sulfur" : 1
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "cathedral/creatures/battle/CATHL7L.def",
 			"map" : "cathedral/creatures/map/AVWCATH13.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT013S.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/CRCT013.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities" :
-		{
-
-		   "FLYING_ARMY": {
-			"type": "FLYING",
-			"subtype": "movementTeleporting"
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
-			"hateAngels" : 
-			{
+			"hateAngels" : {
 				"type" : "HATE",
 				"subtype" : "angel",
 				"val" : 50,
 				"description" : "{Hates Angels and Archangels}\nDoes 50% more damage to Angels and Archangels"
 			},
-			"hateArchAngels" : 
-			{
+			"hateArchAngels" : {
 				"type" : "HATE",
 				"subtype" : "archangel",
 				"val" : 50,
 				"hidden" : true
 			},
-			"KING2":
-			{
+			"KING2" : {
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"sound" :
-		{
-			"attack": "PLIZATTK.wav",
-			"defend": "AAGLDFND.wav",
-			"killed": "NOSFEXT1.wav",
-			"move": "AAGLMOVE.wav",
-			"wince": "NOSFEXT2.wav",
-			"startMoving": "cathedral/CCT7EXT1.wav",
-			"endMoving": "cathedral/CCT7EXT2.wav"
+		"sound" : {
+			"attack" : "PLIZATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "NOSFEXT1.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "NOSFEXT2.wav",
+			"startMoving" : "cathedral/CCT7EXT1.wav",
+			"endMoving" : "cathedral/CCT7EXT2.wav"
 		}
 	}
 }
-
-
-

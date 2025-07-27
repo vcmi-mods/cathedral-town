@@ -1,145 +1,214 @@
 {
-	"cthPaladin":
-	{
-		"name" :
-		{
+	"cthPaladin" : {
+		"name" : {
 			"plural" : "Dark Templars",
 			"singular" : "Dark Templar"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "cathedral",
 		"aiValue" : 1261,
 		"attack" : 18,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
-		"damage" :
-		{
-			 "max" : 30,
-			 "min" : 15
+		"damage" : {
+			"max" : 30,
+			"min" : 15
 		},
 		"defense" : 22,
 		"fightValue" : 1133,
-		"graphics" :
-		{
-			
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"animation" : "cathedral/creatures/battle/CATHL6U.def",
 			"map" : "cathedral/creatures/map/AVWCATH12.def",
 			"iconSmall" : "cathedral/creatures/iconsSmall/CRCT012S.bmp",
 			"iconLarge" : "cathedral/creatures/iconsBig/CRCT012.bmp",
 			"timeBetweenFidgets" : 1
-               },
+		},
 		"growth" : 2,
 		"hitPoints" : 80,
 		"level" : 6,
-		
-		"sound" :
-		{
-			"attack": "CRUSATTK.wav",
-			"defend": "CRUSDFND.wav",
-			"killed": "CRUSKILL.wav",
-			"move": "CRUSMOVE.wav",
-			"wince": "CRUSWNCE.wav"
+
+		"sound" : {
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "CRUSWNCE.wav"
 		},
-		"speed" :7,
-		"abilities" :
-		{
-			"firstStrike" :
-			{
+		"speed" : 7,
+		"abilities" : {
+			"firstStrike" : {
 				"type" : "FIRST_STRIKE"
 			},
-			"prayerImmunity" : 
-			{
+			"prayerImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "prayer",
 				"addInfo" : 1
 			},
-			"dispelImmunity" : 
-			{
+			"dispelImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "dispelHelpful",
 				"addInfo" : 1
 			},
-            "enchanted" : 	
-			{
+			"enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "temPrayer",
 				"val" : 2
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "bless"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	}
 }
-

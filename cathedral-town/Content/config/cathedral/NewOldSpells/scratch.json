@@ -1,32 +1,33 @@
 {
-	"scratch":
-	{
-		"type": "ability", 
-		"name": "Scratch",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+	"scratch" : {
+		"type" : "ability",
+		"name" : "Scratch",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"affect":["catheSpells/Scratch.def"]
+		"animation" : {
+			"affect" : [
+				"catheSpells/Scratch.def"
+			]
 		},
- 
-		"flags" : {"negative": true},
- 
+
+		"flags" : {
+			"negative" : true
+		},
+
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
@@ -36,38 +37,32 @@
 				"bonus.UNDEAD" : "normal"
 			}
 		},
- 
-		"graphics":
-		{
-			"iconBook": "catheSpells/Scratch0.bmp",
-			"iconScroll": "catheSpells/Scratch1.bmp",
-			"iconScenarioBonus": "catheSpells/Scratch2.bmp",
-			"iconEffect": "catheSpells/Scratch3.bmp"
+
+		"graphics" : {
+			"iconBook" : "catheSpells/Scratch0.bmp",
+			"iconScroll" : "catheSpells/Scratch1.bmp",
+			"iconScenarioBonus" : "catheSpells/Scratch2.bmp",
+			"iconEffect" : "catheSpells/Scratch3.bmp"
 		},
 
-		"sounds":
-		{
-			"cast":"catheSpells/SCRATCH.wav"
+		"sounds" : {
+			"cast" : "catheSpells/SCRATCH.wav"
 		},
 		"targetType" : "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"power": 10,
-//				"aiValue": 12,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				//				"aiValue": 12,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"description": "",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
+				"description" : "",
+
+				"cost" : 0,
+
+				"effects" : {
 					"stackHealth" : {
 						"val" : -10,
 						"type" : "STACK_HEALTH",
@@ -80,24 +75,12 @@
 						"subtype" : "defence",
 						"duration" : "N_TURNS"
 					}
-				}				
+				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
-	} 
+	}
 }

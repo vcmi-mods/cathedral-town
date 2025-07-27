@@ -1,43 +1,97 @@
 {
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
-	"author": "Ben Yan",
+	"author" : "Ben Yan",
 	"version" : "1.3.6",
-	"contact": "mail: benyan9110@gmail.com",
+	"contact" : "mail: benyan9110@gmail.com",
 	"modType" : "Town",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
-	},	
-	"changelog" :
-	{
-		"1.3.6"   : [ "Another update to vcmi-1.7 format" ],
-		"1.3.5"   : [ "Update to vcmi-1.7 format" ],
-		"1.3.4"   : [ "Minor tweak" ],
-		"1.3.3"   : [ "Updated hero's battle appearance" ],
-		"1.3.2"   : [ "Spanish translation by danielcshn." ],
-		"1.3.1"   : [ "Czech translation by George King." ],
-		"1.3.0"   : [ "Fixed town screen and some map objects by Ben." ],
-		"1.2.0"   : [ "Fixed Polish translation integrity with original game version by Yoshiro." ],
-		"1.1.9"   : [ "Fix Grail not to produce gold" ],
-		"1.1.8"   : [ "Update to vcmi-1.6 format" ],
-		"1.1.7"   : [ "Fixed Franco J specialty", "Fixed commander's Magic Resistance bonus" ],
-		"1.1.6"   : [ "Updated russian translation", "Improved horde graphics by Fabrice-TIERCELIN" ],
-		"1.1.5"   : [ "Russian translation by Anton Sergeew" ],
-		"1.1.4"   : [ "Added the creatures' stackExp, fixed the commander and other bugs" ],
-		"1.1.3"   : [ "Update to vcmi-1.4 format" ],
-		"1.1.2"   : [ "Polish translation by Dru" ],
-		"1.1.1"   : [ "New spell" ],
-		"1.1.0"   : [ "New updates" ],
-		"1.0.8"   : [ "Portait reworks" ],
-		"1.0.7"   : [ "Update to vcmi-1.3" ],
-		"1.0.6"   : [ "Chinese  translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.0.5"   : [ "Changes for vcmi-1.2" ],
-		"1.0.4"   : [ "Arrow tower icons added" ],
-		"1.0.3"   : [ "Fixed values and german support added" ],
-		"1.0.2"   : [ "Grail building support" ],
-		"1.0.1"   : [ "Special buildings support" ],
-		"1.0.0"   : [ "Initial release" ]
+	},
+	"changelog" : {
+		"1.3.6" : [
+			"Another update to vcmi-1.7 format"
+		],
+		"1.3.5" : [
+			"Update to vcmi-1.7 format"
+		],
+		"1.3.4" : [
+			"Minor tweak"
+		],
+		"1.3.3" : [
+			"Updated hero's battle appearance"
+		],
+		"1.3.2" : [
+			"Spanish translation by danielcshn."
+		],
+		"1.3.1" : [
+			"Czech translation by George King."
+		],
+		"1.3.0" : [
+			"Fixed town screen and some map objects by Ben."
+		],
+		"1.2.0" : [
+			"Fixed Polish translation integrity with original game version by Yoshiro."
+		],
+		"1.1.9" : [
+			"Fix Grail not to produce gold"
+		],
+		"1.1.8" : [
+			"Update to vcmi-1.6 format"
+		],
+		"1.1.7" : [
+			"Fixed Franco J specialty",
+			"Fixed commander's Magic Resistance bonus"
+		],
+		"1.1.6" : [
+			"Updated russian translation",
+			"Improved horde graphics by Fabrice-TIERCELIN"
+		],
+		"1.1.5" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.1.4" : [
+			"Added the creatures' stackExp, fixed the commander and other bugs"
+		],
+		"1.1.3" : [
+			"Update to vcmi-1.4 format"
+		],
+		"1.1.2" : [
+			"Polish translation by Dru"
+		],
+		"1.1.1" : [
+			"New spell"
+		],
+		"1.1.0" : [
+			"New updates"
+		],
+		"1.0.8" : [
+			"Portait reworks"
+		],
+		"1.0.7" : [
+			"Update to vcmi-1.3"
+		],
+		"1.0.6" : [
+			"Chinese  translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.0.5" : [
+			"Changes for vcmi-1.2"
+		],
+		"1.0.4" : [
+			"Arrow tower icons added"
+		],
+		"1.0.3" : [
+			"Fixed values and german support added"
+		],
+		"1.0.2" : [
+			"Grail building support"
+		],
+		"1.0.1" : [
+			"Special buildings support"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
 	"french" : {
@@ -63,21 +117,21 @@
 	},
 	"german" : {
 		"name" : "Kathedrale",
-		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",	
+		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",
 		"translations" : [
 			"translation/cathedral/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "Katedra",
-		"description" : "Katedra to mod odtworzony przez Ben Yana",	
+		"description" : "Katedra to mod odtworzony przez Ben Yana",
 		"translations" : [
 			"translation/cathedral/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Собор",
-		"description" : "Новый город Собор, созданный в готическом стиле темного фэнтези.",	
+		"description" : "Новый город Собор, созданный в готическом стиле темного фэнтези.",
 		"translations" : [
 			"translation/cathedral/russian.json"
 		]
@@ -90,17 +144,15 @@
 		]
 	},
 
-	"factions" :
-	[
+	"factions" : [
 		"config/cathedral/town/buildings.json",
 		"config/cathedral/town/faction.json",
 		"config/cathedral/town/puzzle.json",
 		"config/cathedral/town/siege.json",
 		"config/cathedral/town/structures.json"
 	],
-    
-	"creatures" :
-	[
+
+	"creatures" : [
 		"config/cathedral/creatures/CATHL1L.json",
 		"config/cathedral/creatures/CATHL1U.json",
 		"config/cathedral/creatures/CATHL2L.json",
@@ -117,15 +169,13 @@
 		"config/cathedral/creatures/CATHL7U.json",
 		"config/cathedral/creatures/RedFanatic.json"
 	],
-	
-	"heroClasses" :
-	[
+
+	"heroClasses" : [
 		"config/cathedral/classes/cthbishop.json",
 		"config/cathedral/classes/redtemplar.json"
 	],
-    
-	"heroes" :
-	[
+
+	"heroes" : [
 		"config/cathedral/heroes/Brooke.json",
 		"config/cathedral/heroes/Erika.json",
 		"config/cathedral/heroes/Helena.json",
@@ -143,9 +193,8 @@
 		"config/cathedral/heroes/Volh.json",
 		"config/cathedral/heroes/Vseglas.json"
 	],
-	
-	"spells" :
-	[
+
+	"spells" : [
 		"config/cathedral/NewOldSpells/scratch.json",
 		"config/cathedral/NewOldSpells/conviction.json",
 		"config/cathedral/NewOldSpells/punishment.json",
@@ -158,9 +207,8 @@
 		"config/cathedral/NewOldSpells/DivineRevenge.json",
 		"config/cathedral/NewOldSpells/moat.json"
 	],
-    
-	"objects" :
-	[
-        "config/cathedral/dwellings.json"
+
+	"objects" : [
+		"config/cathedral/dwellings.json"
 	]
 }

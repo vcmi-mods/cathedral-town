@@ -1,28 +1,20 @@
 {
-	"cathedral" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"cathedral" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
-					
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 4,
 						"mercury" : 5,
 						"ore" : 4,
@@ -32,12 +24,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 5,
 						"ore" : 6,
@@ -47,12 +37,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild4" :
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 5,
 						"ore" : 8,
@@ -62,296 +50,288 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild 5",
-					"cost" :
-					{
-						"wood": 5,
-                        "mercury": 10,
-                        "ore": 5,
-                        "sulfur": 10,
-                        "crystal": 10,
-                        "gems": 10,
-                        "gold": 1000
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
-					},
-					
+					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					
+					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					}
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
-					
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"name" : "Resource Silo",
 					"description" : "The Resource Silo provides you with an additional +1 sulfur each day.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "sulfur": 1}
+					"produce" : {
+						"sulfur" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with First Aid Tent.",
 					"name" : "Blacksmith",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"warMachine" : "firstAidTent",
-					
+					"warMachine" : "firstAidTent"
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "Torture Chamber increases weekly production of Slayers by 6 per week.",
 					"name" : "Torture Chamber",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					
-					"upgrades" : "dwellingLvl2"	
+
+					"upgrades" : "dwellingLvl2"
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "Torture Chamber increases weekly production of Executioners by 6 per week.",
 					"name" : "Torture Chamber",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : ["horde1"],
-					
+					"requires" : [
+						"horde1"
+					],
+
 					"upgrades" : "dwellingUpLvl2"
 				},
-				"horde2" :
-				{
+				"horde2" : {
 					"description" : "Choir Section increases weekly production of Sextons by 2 per week.",
 					"name" : "Choir Section",
-					"cost" : 
-					{
-						"crystal": 2,
-                        "gems": 2,
+					"cost" : {
+						"crystal" : 2,
+						"gems" : 2,
 						"gold" : 1000
 					},
-					
-					"upgrades" : "dwellingLvl5"	
+
+					"upgrades" : "dwellingLvl5"
 				},
-				"horde2Upgr" :
-				{
+				"horde2Upgr" : {
 					"description" : "Choir Section increases weekly production of Cantors by 2 per week.",
 					"name" : "Choir Section",
-					"cost" : 
-					{
-						"crystal": 2,
-                        "gems": 2,
+					"cost" : {
+						"crystal" : 2,
+						"gems" : 2,
 						"gold" : 1000
 					},
-					"requires" : ["horde2"],
-					
+					"requires" : [
+						"horde2"
+					],
+
 					"upgrades" : "dwellingUpLvl5"
 				},
-				"special3" : 
-				{
+				"special3" : {
 					"description" : "The Confession Chapel increases morale by 1 for troops defending the city.",
 					"name" : "Confession Chapel",
-//					"upgradeReplacesBonuses" : true,
-					"bonuses": [
+					//					"upgradeReplacesBonuses" : true,
+					"bonuses" : [
 						{
-							"type": "MORALE",
-							"val": 1
+							"type" : "MORALE",
+							"val" : 1
 						}
 					],
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000
 					}
-					
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "Donation Station earns your kingdom 350 gold per day.",
 					"name" : "Donation Station",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"gold" : 1500
 					},
-					"requires" : ["marketplace"],
-					"produce": { "gold": 350 }
-					
+					"requires" : [
+						"marketplace"
+					],
+					"produce" : {
+						"gold" : 350
+					}
 				},
-				"special2" : 
-				{
+				"special2" : {
 					"description" : "Salvation Station increases the luck of the garrison hero by +2 when defending against a siege.",
 					"name" : "Salvation Station",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					"bonuses": [
+					"bonuses" : [
 						{
-							"type": "LUCK",
-							"val": 2
+							"type" : "LUCK",
+							"val" : 2
 						}
 					],
 					"upgrades" : "special1",
-                    "produce": { "gold": 350 }, 
-					
-				},	
-
-				"grail" :
-				{
-                    "description" : "Light of Judgement increases weekly creature generation by 50 percent and adds 5000 gold per day. It allows every fire magic spells to become expert, and provides extra 10 attack and spellpower for defending heroes.",	
-					"name" : "Light of Judgement",
-					"bonuses": [
-								{ "type": "PRIMARY_SKILL", "subtype": "attack", "val": 10 },
-								{ "type": "MAGIC_SCHOOL_SKILL", "subtype": "fire","val": 3,"propagator": "PLAYER"  },
-								{ "type": "PRIMARY_SKILL", "subtype": "spellpower", "val": 10 }
-								]
+					"produce" : {
+						"gold" : 350
+					}
 				},
-				"dwellingLvl1" :
-				{
+
+				"grail" : {
+					"description" : "Light of Judgement increases weekly creature generation by 50 percent and adds 5000 gold per day. It allows every fire magic spells to become expert, and provides extra 10 attack and spellpower for defending heroes.",
+					"name" : "Light of Judgement",
+					"bonuses" : [
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "attack",
+							"val" : 10
+						},
+						{
+							"type" : "MAGIC_SCHOOL_SKILL",
+							"subtype" : "fire",
+							"val" : 3,
+							"propagator" : "PLAYER"
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "spellpower",
+							"val" : 10
+						}
+					]
+				},
+				"dwellingLvl1" : {
 					"description" : "Mound allows you to recruit Sleuthhounds.",
 					"name" : "Mound",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 500,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ]
-					
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "Execution Ground allows you to recruit Slayers.",
 					"name" : "Execution Ground",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000,
 						"ore" : 5,
-                        "wood" : 5
+						"wood" : 5
 					},
-					"requires" :["fort"]
-					
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "Hunters' Guild allows you to recruit Witch Hunters.",
 					"name" : "Hunters' Guild",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1500,
 						"ore" : 10
 					},
-					"requires" :["allOf", ["dwellingLvl1"], ["fort"] ]
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "Churchyard allows you to recruit Gourmands.",
 					"name" : "Churchyard",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 2000,
 						"mercury" : 10
 					},
-					"requires" : [ "allOf", ["dwellingLvl1"], ["dwellingLvl2"],["mageGuild1"], ["fort"] ]
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "Auditorium allows you to recruit Sextons.",
 					"name" : "Auditorium",
-					
-					"cost" : 
-					{
+
+					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
 						"ore" : 5,
@@ -360,101 +340,139 @@
 						"mercury" : 2,
 						"crystal" : 2
 					},
-					"requires" : [ "allOf",["dwellingLvl2"], ["mageGuild1"], ["dwellingLvl3"], ["fort"] ]
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl3"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "Order of Templars allows you to recruit Templars.",
 					"name" : "Order of Templars",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 5000,
 						"wood" : 10,
 						"ore" : 10,
 						"gems" : 3,
 						"sulfur" : 3
 					},
-					"requires" : [ "allOf", ["dwellingLvl5"], ["fort"], ["blacksmith"] ]
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"fort"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "Shrine of Judgement allows you to recruit Punishers.",
 					"name" : "Shrine of Judgement",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 15000,
-						"ore"  : 10,
+						"ore" : 10,
 						"gems" : 5,
 						"mercury" : 5,
 						"crystal" : 5,
 						"sulfur" : 15
 					},
-					"requires" : [ "allOf",[ "dwellingLvl5" ], ["fort"], ["mageGuild1"]]
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"fort"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "Upg. Mound allows you to recruit Patrols.",
 					"name" : "Upg. Mound",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000,
-						"wood"  : 5
+						"wood" : 5
 					},
-					
-					"requires" :   ["fort"],
+
+					"requires" : [
+						"fort"
+					],
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "Upg. Execution Ground allows you to recruit Executioners.",
 					"name" : "Upg. Execution Gound",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 1000,
 						"sulfur" : 3,
 						"ore" : 5
 					},
-					
-					"requires" :   ["fort"],
+
+					"requires" : [
+						"fort"
+					],
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "Upg. Hunters' Guild allows you to recruit Evil Hunters.",
 					"name" : "Upg. Hunters' Guild",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000,
 						"ore" : 10
 					},
-					
-					"requires" :   [ "allOf", ["fort"],["mageGuild1"] ],		
+
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"mageGuild1"
+						]
+					],
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "Upg. Churchyard allows you to recruit Gluttons.",
 					"name" : "Upg. Churchyard",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 2000,
 						"mercury" : 5,
 						"sulfur" : 5
 					},
-					
-					"requires" :  [ "allOf", ["mageGuild1"], ["fort"] ],
+
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
-					
+				"dwellingUpLvl5" : {
 					"description" : "Upg. Auditorium allows you to recruit Cantors.",
 					"name" : "Upg. Auditorium",
-					"cost" : 
-					{
+					"cost" : {
 						"wood" : 2,
 						"gold" : 1000,
 						"ore" : 2,
@@ -463,16 +481,22 @@
 						"mercury" : 2,
 						"crystal" : 2
 					},
-					
-					"requires" : [ "allOf", ["mageGuild2"], ["fort"]],
+
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "Upg. Order of Templars allows you to recruit Dark Templars.",
 					"name" : "Upg. Order of Templars",
-					"cost" : 
-					{	
+					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
 						"ore" : 5,
@@ -480,24 +504,38 @@
 						"crystal" : 3,
 						"sulfur" : 3
 					},
-					
-                    "requires" :  [ "allOf", ["special3"],["fort"] ],
+
+					"requires" : [
+						"allOf",
+						[
+							"special3"
+						],
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "Upg. Shrine of Judgement allows you to recruit Chasteners.",
 					"name" : "Upg. Shrine of Judgement",
-					"cost" : 
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 20000,
 						"gems" : 5,
 						"mercury" : 5,
 						"sulfur" : 20
 					},
-					
-					"requires" :  [ "allOf", ["mageGuild2"], ["fort"] ],
+
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl7"
 				}
 			}
