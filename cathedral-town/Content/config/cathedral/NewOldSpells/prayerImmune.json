@@ -7,7 +7,7 @@
 			"iconImmune":"catheSpells/prayerImmune.bmp",
 		},
 		"counters" : {
-			"spell.confessionSong":true
+			"confessionSong":true
 		}
 	}
 }

@@ -55,14 +55,16 @@
 			"hateAngels" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.angel",
-				"val" : 50
+				"subtype" : "angel",
+				"val" : 50,
+				"description" : "{Hates Angels and Archangels}\nDoes 50% more damage to Angels and Archangels"
 			},
 			"hateArchAngels" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.archangel",
-				"val" : 50
+				"subtype" : "archangel",
+				"val" : 50,
+				"hidden" : true
 			},
 			"KING2":
 			{
@@ -77,7 +79,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -85,7 +87,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -93,15 +95,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},

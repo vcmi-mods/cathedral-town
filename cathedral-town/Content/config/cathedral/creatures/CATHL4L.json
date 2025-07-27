@@ -64,7 +64,7 @@
 			"castDisease" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.disease",
+				"subtype" : "disease",
 				"val" : 10,
 				"addInfo" : [1, 2]
 			},
@@ -72,9 +72,9 @@
 			{
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
-				
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "bonuses/e_fearl.png"				
 			}
 		},
 		"stackExperience" :
@@ -83,7 +83,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -91,7 +91,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},

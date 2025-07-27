@@ -47,7 +47,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"frostRing" : {
-					"subtype" : "spell.frostRing",
+					"subtype" : "frostRing",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

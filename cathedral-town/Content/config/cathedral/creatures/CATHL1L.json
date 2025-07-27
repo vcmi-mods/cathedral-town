@@ -70,7 +70,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -78,7 +78,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	

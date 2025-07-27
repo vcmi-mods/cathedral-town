@@ -83,26 +83,30 @@
 			"hateHarpies" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.harpy",
-				"val" : 50
+				"subtype" : "harpy",
+				"val" : 50,
+				"description" : "{Hates Harpies and Harpy Hags}\nDoes 50% more damage to Harpies and Harpy Hags"
 			},
 			"hateHarpieHags" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.harpyHag",
-				"val" : 50
+				"subtype" : "harpyHag",
+				"val" : 50,
+				"hidden" : true
 			},
 			"hateMedusas" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.medusa",
-				"val" : 50
+				"subtype" : "medusa",
+				"val" : 50,
+				"description" : "{Hates Medusas and Medusa Quuens}\nDoes 50% more damage to Medusas and Medusa Quuens"
 			},
 			"hateMedusaQueens" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.medusaQueen",
-				"val" : 50
+				"subtype" : "medusaQueen",
+				"val" : 50,
+				"hidden" : true
 			}
 		},
 		"stackExperience" :
@@ -111,7 +115,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
@@ -119,7 +123,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
@@ -127,15 +131,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},

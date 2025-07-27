@@ -41,15 +41,7 @@
 			}
 		},
 		"specialty" : {
-			"bonuses" : {
-				"resistance" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MAGIC_RESISTANCE",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "resistance"
 		}
 	}
 }

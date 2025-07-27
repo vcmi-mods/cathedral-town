@@ -57,19 +57,19 @@
 			"prayerImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.prayer",
+				"subtype" : "prayer",
 				"addInfo" : 1
 			},
 			"dispelImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.dispelHelpful",
+				"subtype" : "dispelHelpful",
 				"addInfo" : 1
 			},
             "enchanted" : 	
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.temPrayer",
+				"subtype" : "temPrayer",
 				"val" : 2
 			}
 		},
@@ -79,7 +79,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -87,7 +87,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -119,7 +119,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bless"
+					"subtype" : "bless"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]	
 			},
@@ -128,7 +128,6 @@
 				{
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
-					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
