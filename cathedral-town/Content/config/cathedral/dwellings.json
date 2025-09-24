@@ -18,7 +18,8 @@
 							"BBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw01.def"
 			},
 			"cathedralLevel2" : {
 				"name" : "Execution Ground",
@@ -36,7 +37,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw02.def"
 			},
 			"cathedralLevel3" : {
 				"name" : "Hunters' Guild",
@@ -55,7 +57,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw03.def"
 			},
 			"cathedralLevel4" : {
 				"name" : "Churchyard",
@@ -73,7 +76,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw04.def"
 			},
 			"cathedralLevel5" : {
 				"name" : "Auditorium",
@@ -97,7 +101,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw05.def"
 			},
 			"cathedralLevel6" : {
 				"name" : "Order of Templars",
@@ -121,7 +126,8 @@
 							"BAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw06.def"
 			},
 			"cathedralLevel7" : {
 				"name" : "Cursed Shrine",
@@ -145,7 +151,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "cathedral/creatures/dwellings/flagports/cathdw07.def"
 			}
 		}
 	}

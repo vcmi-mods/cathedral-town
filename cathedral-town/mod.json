@@ -2,13 +2,16 @@
 	"name" : "Cathedral Town",
 	"description" : "Cathedral Town is a mod which recreated by Ben Yan",
 	"author" : "Ben Yan",
-	"version" : "1.3.6",
+	"version" : "1.3.7",
 	"contact" : "mail: benyan9110@gmail.com",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.3.7" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"1.3.6" : [
 			"Another update to vcmi-1.7 format"
 		],
