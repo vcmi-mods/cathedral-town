@@ -101,49 +101,49 @@
 		"name" : "Cathédrale",
 		"description" : "La ville Cathédrale est un mod recréé par Ben Yan",
 		"translations" : [
-			"translation/cathedral/french.json"
+			"translation/french.json"
 		]
 	},
 	"czech" : {
 		"name" : "Katedrála",
 		"description" : "Katedrála je temné a fanatické město, které se zrodilo jako odpověď na tragické události a katastrofy v Erathii. Hrdinové jsou poháněni touhou po pomstě a očistě, věří v tvrdé tresty a oddanost božské spravedlnosti.",
 		"translations" : [
-			"translation/cathedral/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"chinese" : {
 		"name" : "教廷",
 		"description" : "教廷是埃拉西亚小镇在遭遇亡灵进攻后留下的幸存者所建立的。兵种独特的设计和特有魔法也是教廷的魅力所在。为城堡种族的对立。",
 		"translations" : [
-			"translation/cathedral/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"german" : {
 		"name" : "Kathedrale",
 		"description" : "Die Kathedrale ist eine Mod, die von Ben Yan neu erstellt wurde",
 		"translations" : [
-			"translation/cathedral/german.json"
+			"translation/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "Katedra",
 		"description" : "Katedra to mod odtworzony przez Ben Yana",
 		"translations" : [
-			"translation/cathedral/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Собор",
 		"description" : "Новый город Собор, созданный в готическом стиле темного фэнтези.",
 		"translations" : [
-			"translation/cathedral/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"spanish" : {
 		"name" : "Catedral",
 		"description" : "La Catedral es un mod recreado por Ben Yan",
 		"translations" : [
-			"translation/cathedral/spanish.json"
+			"translation/spanish.json"
 		]
 	},
 
