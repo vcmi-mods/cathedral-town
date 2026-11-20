@@ -52,7 +52,10 @@
 
 				"cost" : 0,
 
-				"effects" : {
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"stackHealth" : {
 						"val" : -20,
 						"type" : "STACK_HEALTH",
@@ -70,6 +73,8 @@
 						"subtype" : "attack",
 						"val" : -5,
 						"duration" : "N_TURNS"
+					}
+						}
 					}
 				}
 			},

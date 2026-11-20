@@ -50,14 +50,7 @@
 			"fireball"
 		],
 		"specialty" : {
-			"bonuses" : {
-				"fireball" : {
-					"subtype" : "fireball",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "fireball"
 		}
 	}
 }

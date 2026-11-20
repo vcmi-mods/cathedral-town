@@ -49,14 +49,7 @@
 			"weakness"
 		],
 		"specialty" : {
-			"bonuses" : {
-				"weakness" : {
-					"subtype" : "weakness",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellFixedAdditive" : "weakness"
 		}
 	}
 }

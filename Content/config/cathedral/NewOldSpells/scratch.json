@@ -62,7 +62,10 @@
 
 				"cost" : 0,
 
-				"effects" : {
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"stackHealth" : {
 						"val" : -10,
 						"type" : "STACK_HEALTH",
@@ -74,6 +77,8 @@
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "defence",
 						"duration" : "N_TURNS"
+					}
+						}
 					}
 				}
 			},

@@ -46,7 +46,10 @@
 				"power" : 20,
 				"description" : "{Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.",
 
-				"effects" : {
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "attack",
@@ -64,6 +67,8 @@
 						"val" : -2,
 						"duration" : "N_TURNS"
 					}
+						}
+					}
 				}
 			},
 			"none" : {},
@@ -72,7 +77,29 @@
 			},
 			"advanced" : {
 				"description" : "{Advanced Confession Song}\n\nReduce the attack strength, defense strength and speed of the selected unit.\n\nEffect is twice that of Basic Confession Song.",
-				"effects" : {
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
+							"attack" : {
+						"val" : -4
+					},
+					"defence" : {
+						"val" : -4
+					},
+					"stacksSpeed" : {
+						"val" : -4
+					}
+					}
+					}
+				}
+			},
+			"expert" : {
+				"cost" : 14,
+				"description" : "{Expert Confession Song}\n\nReduce the attack strength, defense strength and speed of all enemy unit.\n\nEffect is twice that of Basic Confession Song.",
+				"range" : "X",
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
 					"attack" : {
 						"val" : -4
 					},
@@ -82,21 +109,7 @@
 					"stacksSpeed" : {
 						"val" : -4
 					}
-				}
-			},
-			"expert" : {
-				"cost" : 14,
-				"description" : "{Expert Confession Song}\n\nReduce the attack strength, defense strength and speed of all enemy unit.\n\nEffect is twice that of Basic Confession Song.",
-				"range" : "X",
-				"effects" : {
-					"attack" : {
-						"val" : -4
-					},
-					"defence" : {
-						"val" : -4
-					},
-					"stacksSpeed" : {
-						"val" : -4
+					}
 					}
 				}
 			}

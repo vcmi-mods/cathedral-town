@@ -20,7 +20,6 @@
 
 		"flags" : {
 			"damage" : true,
-			"offensive" : true,
 			"negative" : true
 		},
 		"targetCondition" : {
@@ -64,18 +63,23 @@
 				"cost" : 30,
 				"power" : 50,
 
-				"effects" : {
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"duration" : "STACK_GETS_TURN"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : -2,
-						"duration" : "STACK_GETS_TURN"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"defence" : {
+								"val" : -2,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"duration" : "STACK_GETS_TURN"
+							},
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : -2,
+								"duration" : "STACK_GETS_TURN"
+							}
+						}
 					}
 				}
 			},
@@ -91,12 +95,16 @@
 				"cost" : 25,
 				"power" : 200,
 
-				"effects" : {
-					"defence" : {
-						"val" : -3
-					},
-					"attack" : {
-						"val" : -3
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
+							"defence" : {
+								"val" : -3
+							},
+							"attack" : {
+								"val" : -3
+							}
+						}
 					}
 				}
 			},
@@ -106,12 +114,16 @@
 				"cost" : 25,
 				"power" : 400,
 
-				"effects" : {
-					"defence" : {
-						"val" : -5
-					},
-					"attack" : {
-						"val" : -5
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
+							"defence" : {
+								"val" : -5
+							},
+							"attack" : {
+								"val" : -5
+							}
+						}
 					}
 				}
 			}

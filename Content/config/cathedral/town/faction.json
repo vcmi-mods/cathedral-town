@@ -1,7 +1,7 @@
 {
 	"cathedral" : {
 		"name" : "Cathedral",
-		"nativeTerrain" : "dirt",
+		"nativeTerrain" : [ "dirt" ],
 		"alignment" : "evil",
 		"boat" : "boatNecropolis",
 		"creatureBackground" : {

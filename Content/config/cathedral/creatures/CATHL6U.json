@@ -59,9 +59,10 @@
 				"addInfo" : 1
 			},
 			"enchanted" : {
-				"type" : "ENCHANTED",
-				"subtype" : "temPrayer",
-				"val" : 2
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"val" : 2,
+				"addInfo" : { "spell" : "temPrayer" }				
 			}
 		},
 		"stackExperience" : [
@@ -157,8 +158,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "bless"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "core:bless" }
 				},
 				"values" : [
 					0,

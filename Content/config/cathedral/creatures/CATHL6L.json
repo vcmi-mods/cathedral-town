@@ -48,9 +48,10 @@
 		},
 		"abilities" : {
 			"enchanted" : {
-				"type" : "ENCHANTED",
-				"subtype" : "prayer",
-				"val" : 2
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"val" : 2,
+				"addInfo" : { "spell" : "prayer" }			
 			}
 		},
 		"stackExperience" : [
@@ -146,8 +147,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "prayer"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "core:prayer" }
 				},
 				"values" : [
 					2,

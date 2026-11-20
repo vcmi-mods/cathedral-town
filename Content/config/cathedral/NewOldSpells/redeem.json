@@ -36,7 +36,8 @@
 				"bonus.NON_LIVING" : "normal",
 				"bonus.GARGOYLE" : "normal",
 				"bonus.MECHANICAL" : "normal",
-				"bonus.REBIRTH" : "absolute",
+				"rebirth" : { "type" : "bonus", "mode" : "absolute", "bonusType" : "COMBAT_EVENT_TRIGGER", "bonusSubtype" : "rebirth" },
+//				"bonus.REBIRTH" : "absolute",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "normal"
 			}
@@ -66,7 +67,10 @@
 
 				"cost" : 0,
 
-				"effects" : {
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"redeem" : {
 						"type" : "STACK_HEALTH",
 						"val" : 25,
@@ -76,6 +80,8 @@
 						"type" : "HP_REGENERATION",
 						"val" : 100,
 						"valueType" : "BASE_NUMBER"
+					}
+						}
 					}
 				}
 			},
