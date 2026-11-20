@@ -56,24 +56,24 @@
 					"timed" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"stackHealth" : {
-						"val" : -20,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"val" : -5,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"duration" : "N_TURNS"
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : -5,
-						"duration" : "N_TURNS"
-					}
+							"stackHealth" : {
+								"val" : -20,
+								"type" : "STACK_HEALTH",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"defence" : {
+								"val" : -5,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"duration" : "N_TURNS"
+							},
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : -5,
+								"duration" : "N_TURNS"
+							}
 						}
 					}
 				}

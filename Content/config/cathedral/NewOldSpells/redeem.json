@@ -36,8 +36,13 @@
 				"bonus.NON_LIVING" : "normal",
 				"bonus.GARGOYLE" : "normal",
 				"bonus.MECHANICAL" : "normal",
-				"rebirth" : { "type" : "bonus", "mode" : "absolute", "bonusType" : "COMBAT_EVENT_TRIGGER", "bonusSubtype" : "rebirth" },
-//				"bonus.REBIRTH" : "absolute",
+				"rebirth" : {
+					"type" : "bonus",
+					"mode" : "absolute",
+					"bonusType" : "COMBAT_EVENT_TRIGGER",
+					"bonusSubtype" : "rebirth"
+				},
+				//				"bonus.REBIRTH" : "absolute",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "normal"
 			}
@@ -71,16 +76,16 @@
 					"timed" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"redeem" : {
-						"type" : "STACK_HEALTH",
-						"val" : 25,
-						"valueType" : "PERCENT_TO_BASE"
-					},
-					"redeem2" : {
-						"type" : "HP_REGENERATION",
-						"val" : 100,
-						"valueType" : "BASE_NUMBER"
-					}
+							"redeem" : {
+								"type" : "STACK_HEALTH",
+								"val" : 25,
+								"valueType" : "PERCENT_TO_BASE"
+							},
+							"redeem2" : {
+								"type" : "HP_REGENERATION",
+								"val" : 100,
+								"valueType" : "BASE_NUMBER"
+							}
 						}
 					}
 				}
