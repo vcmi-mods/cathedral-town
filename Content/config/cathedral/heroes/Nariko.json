@@ -41,9 +41,9 @@
 			"name" : "Leonor",
 			"biography" : "Leonor suffered this disaster only in her nine-year-old age. She stayed at home for almost 5 days without water until a cleric saved her and put her into the church. She still supposes the man who saved her is actually an angel. Now she becomes increasingly pious even fanatic because of this steadfast faith.",
 			"specialty" : {
-				"tooltip" : "Bonus: Couatls",
-				"description" : "Increases Speed of any Couatls and Bloody Couatls by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
-				"name" : "Couatls"
+				"tooltip" : "Creature bonus: Gourmand",
+				"description" : "Increases Speed of any Gourmands and Gluttons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"name" : "Gourmands"
 			}
 		},
 		"specialty" : {
